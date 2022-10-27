@@ -8,19 +8,19 @@ for item in list01:
 
 total = 1
 list02 = [5, 1, 4, 6, 7, 4, 6, 8, 5]
-for i in list02:
-    total *= i
+for item in list02:
+    total *= item
 print(total)
 
-# list_area = []
-# while True:
-#     area = input("请输入地区:")
-#     if area == "":
-#         break
-#     if area not in list_area:
-#         list_area.append(area)
-# for i in range(len(list_area)-1,-1,-1):
-#     print(list_area[i])
+list_area = []
+while True:
+    area = input("请输入地区:")
+    if area == "":
+        break
+    if area not in list_area:
+        list_area.append(area)
+for i in range(len(list_area)-1,-1,-1):
+    print(list_area[i])
 
 # list_people = []
 # for i in range(5):
