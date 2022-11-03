@@ -1,5 +1,5 @@
 '''
-    练习
+    练习 
 '''
 
 # dict_travel_info = {
@@ -48,3 +48,15 @@ for item in list_orders:
 for item in list_orders:
     cid = dicy_commodity_infos[item["cid"]]
     print(f"商品名称{cid['name']},商品单价{cid['price']},数量{item['count']}")
+
+max_data = list_orders[0]
+for i in range(1,len(list_orders)):
+    if max_data["count"] < list_orders[i]["count"]:
+        max_data = list_orders[i]
+print(max_data)
+
+for i in range(len(list_orders)-1):
+    for j in range(i+1,len(list_orders)):
+        if list_orders[i]["count"] < list_orders[j]["count"]:
+            list_orders[i],list_orders[j] = list_orders[j],list_orders[i]
+print(list_orders)

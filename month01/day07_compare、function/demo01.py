@@ -1,5 +1,5 @@
 '''
-    排序
+    排序  
 '''
 
 list_num = [3,6,65,45,3,4242,43,564,42,43,5]
@@ -10,5 +10,12 @@ for i in range(0,len(list_num)-1):
         #找更大
         if list_num[i] < list_num[j]:
             #做交换
+            list_num[i],list_num[j] = list_num[j],list_num[i]
+print(list_num)
+
+
+for i in range(0,len(list_num)-1):
+    for j in range(i+1,len(list_num)):
+        if list_num[i] > list_num[j]:
             list_num[i],list_num[j] = list_num[j],list_num[i]
 print(list_num)
