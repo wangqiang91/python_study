@@ -30,5 +30,17 @@ def get_class_name(num):
         :return 课程名称
     """
     dict_class_name = {1:"python语言核心",2:"python高级软件",3:"web全栈",4:"项目实战",5:"数据分析"}
-    return dict_class_name[num]
-print(get_class_name(3))
+    if num in dict_class_name.keys():
+        return dict_class_name[num]
+print(get_class_name(2))
+
+
+def calculate_iq_name(ma,ca): #由于return执行后，后面的代码不再执行，所以可以把elif换成if；
+    iq = ma / ca * 100
+    if iq >= 140: return "天才"
+    if iq >= 120: return "超常"
+    if iq >= 100: return "聪慧"
+    if iq >= 90: return "正常"
+    if iq >= 80: return "迟钝"
+    return "低能"
+print(calculate_iq_name(25,22))
