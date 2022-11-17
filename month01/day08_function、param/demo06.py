@@ -23,10 +23,10 @@ def get_employees_gt_two(list_target):
 # get_employees_gt_two(list_employees)
 
 def get_lowest_salary(list_target):
-    lowest_salary = list_target[0]["money"]
+    lowest_salary = list_target[0]
     for item in list_target:
-        if lowest_salary > item["money"]:
-            lowest_salary = item["money"]
+        if lowest_salary["money"] > item["money"]:
+            lowest_salary = item
     return lowest_salary
 print(get_lowest_salary(list_employees))
 
