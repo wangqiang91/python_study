@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片及超链接</title>
+</head>
+<body>
+    <!-- 将网页完整的设计图拆分成若干部分，按照从上到下，从左到右的顺序拆分成多个div，然后给每个div加样式； -->
+    <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww2.ppdesk.com%2Ffile%2F20100120%2Fdesk%2F2009%2F09%2Fdog2009%2Fdog2009_19_1440x900_23th.jpg&refer=http%3A%2F%2Fwww2.ppdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1672387898&t=ad4e1bd497aafcc4021014b9052254a4" width="500px" title="小狗狗" alt="狗狗">
+    <!-- 图片只设定宽的时候，高会自动按比例调整； -->
+    <img src="image011.jpg" height="312.5px" title="动漫美女" alt="图片丢啦">
+    <!-- 图片相对路径，如果是当前文件夹同级的文件夹下的图片，用../文件夹A/文件1.jpg；如果图片和代码在同一文件夹下，则直接用XX.jpg就可以 -->
+    
+    <a href="https://www.runoob.com/" target="_blank">
+        跳转呀
+        <img src="..\image\image01.jpg" height="312.5px" title="动漫美女" alt="图片被大水冲走拉">
+    </a>
+</body>
+</html>
