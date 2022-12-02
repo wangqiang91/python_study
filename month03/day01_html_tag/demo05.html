@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单控件</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+            姓名：<input type="text" name="user" placeholder="请输入姓名" maxlength="20">
+        </p>
+        <p>
+            密码：<input type="password" name="upwd" placeholder="请输入密码">
+        </p>
+        <p>   
+            <!-- 单选 只有name属性的值一致才可以单选-->
+            性别：<input type="radio" name="gender" value="1">男
+            <input type="radio" name="gender" value="0">女
+        </p>
+        <p>
+            <!-- 多选 -->
+            晚饭：<input name="dinner" type="checkbox" value="1"> 米饭
+            <input name="dinner" type="checkbox" value="2"> 馒头
+            <input name="dinner" type="checkbox" value="3"> 蛋炒饭
+            <input name="dinner" type="checkbox" value="4"> 炒菜
+        </p>
+        <p>
+            <!-- 下拉框单选  multiple可以多选，搭配size="N"-->
+            爱好：<select name="hobby" id="">
+                <option value="001">选项A</option>
+                <option value="002">选项B</option>
+                <option value="003">选项C</option>
+                <option selected value="004">选项D</option>  <!--selected设置默认选项-->
+            </select>
+        </p>
+        <p>
+            <!-- 用style中的resize=none可以固定输入框的大小； -->
+            建议：<textarea style="resize: none;" name="" id="" cols="30" rows="5" placeholder="输入想法"></textarea>
+        </p>
+        <p>
+            选择文件：<input name="myfile" type="file">
+        </p>
+        <input type="submit" value="保存">
+        <input type="reset">
+        <input type="button" value="普通按钮">
+        
+    </form>
+
+</body>
+</html>
