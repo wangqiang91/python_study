@@ -14,36 +14,40 @@ class GoodsModel:
 class GoodsView:
     def __init__(self):
         self.controller = GoodsController()
-    def view_menu(self):
+    def main(self):
+        while True:
+            self.__view_menu()
+            self.__select_menu()
+    def __view_menu(self):
         print("1键录入商品信息")
         print("2键查看商品信息")
         print("3键删除商品信息")
         print("4键修改商品信息")
-    def select_menu(self):
+    def __select_menu(self):
         data = int(input("请选择操作"))
         if data == 1:
-            self.input_message()
+            self.__input_message()
         elif data == 2:
-            self.display_message()
+            self.__display_message()
         elif data == 3:
-            self.delete_message()
+            self.__delete_message()
         elif data == 4:
-            self.update_message()
-    def input_message(self):
+            self.__update_message()
+    def __input_message(self):
         goodsmodel = GoodsModel()
         goodsmodel.name = input("输入商品名称：")
         goodsmodel.price = input("输入商品价格：")
         self.controller.add_goods(goodsmodel)
-    def display_message(self):
+    def __display_message(self):
         for item in self.controller.goods_list:
             print(f"编号{item.goods_id}的商品名称是{item.name},价格是{item.price}")
-    def delete_message(self):
+    def __delete_message(self):
         goods_id = int(input("请输入要删除的商品ID:"))
         if self.controller.remove_goods(goods_id):
             print("删除成功")
         else:
             print("删除失败")
-    def update_message(self):
+    def __update_message(self):
         model = GoodsModel()
         model.goods_id = int(input("请输入要修改的商品ID:"))
         model.name = input("请输入修改后的名称:")
@@ -89,6 +93,4 @@ class GoodsController:
         return False
 
 goods = GoodsView()
-while True:
-    goods.view_menu()
-    goods.select_menu()
+goods.main()
