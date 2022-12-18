@@ -2,6 +2,8 @@
     行为继承：
         设计顺序：先子再父； 编码顺序：先父类，再子类；
         适用性：多个类型代码上有共性，且概念统一； 
+        子类可以直接使用self调用父类的构造函数和方法，但若子类和父类的方法名/构造函数名一样，
+        则必须适用super()来调用。
 """
 
 class Animal:
@@ -17,7 +19,7 @@ class Dog(Animal):
 
 class Bird(Animal):
     def fly(self,name=""):
-        self.eat(name)
+        super().eat(name)
         return (f"{name}鸟可以飞！")
 
 dog = Dog(30)
