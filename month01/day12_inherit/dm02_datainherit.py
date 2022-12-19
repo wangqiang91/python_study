@@ -7,6 +7,9 @@ class Person:
     def __init__(self,name="",age=0):
         self.name = name 
         self.age = age
+    #自定义对象 输出成 字符串
+    def __str__(self):
+        return f"我的名字是{self.name},年龄是{self.age}"
 
 class Student1(Person):
     def message(self):
@@ -18,8 +21,8 @@ class Student2(Person):
         self.score = score
 
 stu2 = Student2(100,"张三",38)
-print(stu2.name)
-print(stu2.age)
+print(stu2)
+# print(stu2.age)
 
 """练习"""
 class Car:
@@ -32,5 +35,5 @@ class ElectroCar(Car):
         self.battery = battery
         self.power = power
 
-elc = ElectroCar("xiaoniu",300,60,40)
-print(elc.__dict__)
+# elc = ElectroCar("xiaoniu",300,60,40)
+# print(elc.__dict__)
