@@ -2,6 +2,8 @@
     继承-数据
         1.子类没有构造函数，可以直接使用父类的构造函数；
         2.子类有构造函数，子类必须通过super().__init__(data1,data2)调用父类构造函数；
+    单继承：父类只有一个(如java,c#)
+    多继承：父类有多个(如c++,python)
 """
 class Person:
     def __init__(self,name="",age=0):
