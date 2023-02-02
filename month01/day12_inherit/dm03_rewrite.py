@@ -32,7 +32,12 @@ class Commodity:
 # c01 = Commodity(1001,"屠龙刀","400")
 # print(c01)
 
-"""算法add的重写"""  
+"""
+    实现自定义对象加法运算，需要重写__add__方法；
+
+    实现自定义对象累加运算，需要重新__iadd__方法；
+
+"""  
 class Vector2:
     def __init__(self,x,y):
         self.x = x
@@ -68,7 +73,19 @@ class Colour:
             b = self.b - other
             a = self.a - other
         return Colour(r,g,b,a)
+    def __isub__(self,other):
+        if type(other) == Colour:
+            self.r -= other.r
+            self.g -= other.g
+            self.b -= other.b
+            self.a -= other.a
+        else:
+            self.r -= other
+            self.g -= other
+            self.b -= other
+            self.a -= other
+        return self
 cou1 = Colour(1,2,3,4)
 cou2 = Colour(20,30,40,50)
-cou3 = cou1 - cou2
-print(cou3.__dict__)
+cou1 -= cou2
+print(cou1.__dict__)
