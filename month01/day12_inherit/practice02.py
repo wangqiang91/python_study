@@ -72,10 +72,9 @@ class Electrocar(Car):
         print(super().__str__())
         return f"{self.brand}的速度是{self.speed},电池容量是{self.capacity},充电功率是{self.power}"
 car = Car("小鸟",26)
-print(car)
+# print(car)
 electrocar = Electrocar("小鹏",23,200,150)
-# print(electrocar.brand_speed())
-print(electrocar)
+# print(electrocar)
 
 """
     以面向对象思想，描述下列情景：
@@ -97,3 +96,9 @@ class Iphone(Communication):
 
 xm = XiaoMing()
 # print(xm.call_iphone(Iphone()))
+
+a = input()
+if a == a[::-1]:
+    print("a是复核数")
+else:
+    print("a不是复核数")
