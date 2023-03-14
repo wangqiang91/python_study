@@ -17,6 +17,10 @@ class EmployeeModel:
     def salary(self,value):
         if value < 5000: value = 5000
         self.__salary = value
+    def __str__(self):
+        return f"编号:{self.id},姓名:{self.name},年龄{self.age},性别{self.sex},薪资{self.salary};"
+    def __eq__(self, other) :
+        return self.id == other.id
 
 class EmployeeView:
     def __init__(self):
@@ -58,7 +62,7 @@ class EmployeeView:
     def __display_employee(self):
         #employee_list设置只读属性后，引用时无需用__；
         for item in self.__controller.employee_list:
-            print(f"编号:{item.id},姓名:{item.name},年龄{item.age},性别{item.sex},薪资{item.salary};")
+            print(item)
     
     def __delete_employee(self):
         impolyee_id = int(input("请输入要删除的员工ID:"))
@@ -109,14 +113,21 @@ class EmployeeController():
             :param impolyee_id:员工ID,根据这个ID删除列表中的数据;
             :return:返回布尔类型数据给EmployeeView类的delete_employee方法;
         """
-        for i in range(len(self.__employee_list)):
-            if self.__employee_list[i].id == impolyee_id:
-                del self.__employee_list[i]
-                return True
+        # for i in range(len(self.__employee_list)):
+        #     if self.__employee_list[i].id == impolyee_id:
+        #         del self.__employee_list[i]
+        #         return True
+        # return False
+
+        model = EmployeeModel(id=impolyee_id)
+        if model in self.__employee_list:
+            self.__employee_list.remove(model)
+            # 由于remove和in内容调用的都是__eq__，所以要重写EmployeeModel的__eq__；
+            return True
         return False
     def update_employee_message(self,model):
         """
-            修改商品信息;
+            修改员工信息;
             :param model:EmployeeModel类型数据;使用__dict__修改全部信息;
         """
         for item in self.__employee_list:

@@ -44,12 +44,14 @@ class Tester(EmployeeSalary):
 
 class DeagramManager:
     def __init__(self) :
-        self.deagram_list = []
+        self.__deagram_list = []
     def add_deagram(self,dea):
-        self.deagram_list.append(dea)
+        if isinstance(dea,Deagram):
+            # 防止异常的数据加入时报错；
+            self.__deagram_list.append(dea)
     def calculate_area(self):
         total_area = 0
-        for item in self.deagram_list:
+        for item in self.__deagram_list:
             total_area += item.get_area()
         return total_area
 
@@ -74,4 +76,5 @@ class Rectangle(Deagram):
 dm = DeagramManager()
 dm.add_deagram(Circle(10))
 dm.add_deagram(Rectangle(20,30))
+dm.add_deagram("daye")
 print(dm.calculate_area())
