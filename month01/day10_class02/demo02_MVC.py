@@ -10,6 +10,10 @@ class GoodsModel:
         self.goods_id = goods_id
         self.name = name
         self.price = price
+    def __str__(self):
+        return f"编号{self.goods_id}的商品名称是{self.name},价格是{self.price}"
+    def __eq__(self,other):
+        return self.goods_id == other.goods_id
 
 class GoodsView:
     def __init__(self):
@@ -40,7 +44,7 @@ class GoodsView:
         self.controller.add_goods(goodsmodel)
     def __display_message(self):
         for item in self.controller.goods_list:
-            print(f"编号{item.goods_id}的商品名称是{item.name},价格是{item.price}")
+            print(item)
     def __delete_message(self):
         goods_id = int(input("请输入要删除的商品ID:"))
         if self.controller.remove_goods(goods_id):
@@ -76,11 +80,18 @@ class GoodsController:
             删除商品信息：
             :param goods_list:要删除的商品编号,int类型;
         """
-        for i in range(len(self.goods_list)):
-            if self.goods_list[i].goods_id == goods_id:
-                del self.goods_list[i]
-                return True
+        # for i in range(len(self.goods_list)):
+        #     if self.goods_list[i].goods_id == goods_id:
+        #         del self.goods_list[i]
+        #         return True
+        # return False
+
+        item = GoodsModel(goods_id=goods_id)
+        if item in self.goods_list:
+            self.goods_list.remove(item)
+            return True
         return False
+
     def update_goods(self,model): 
         """
             修改商品信息;
