@@ -5,6 +5,9 @@
         Model(模型),包装多个数据：商品模型;
         Controller(控制器),负责核心业务逻辑：存储;
 """
+import sys
+
+
 class GoodsModel:
     def __init__(self,goods_id=1,name="",price=0):
         self.goods_id = goods_id
@@ -27,6 +30,7 @@ class GoodsView:
         print("2键查看商品信息")
         print("3键删除商品信息")
         print("4键修改商品信息")
+        print("0键退出系统")
     def __select_menu(self):
         data = int(input("请选择操作"))
         if data == 1:
@@ -37,6 +41,9 @@ class GoodsView:
             self.__delete_message()
         elif data == 4:
             self.__update_message()
+        elif data == 0 :
+            print("已退出程序")
+            sys.exit()
     def __input_message(self):
         goodsmodel = GoodsModel()
         goodsmodel.name = input("输入商品名称：")
