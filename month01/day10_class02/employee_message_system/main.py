@@ -1,4 +1,5 @@
 from usl import EmployeeView
 
-empolyee = EmployeeView()
-empolyee.main()
+if __name__ == "__main__":
+    empolyee = EmployeeView()
+    empolyee.main()

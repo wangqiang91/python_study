@@ -1,14 +1,14 @@
-list_merge = [2,2,2,0]
+list_merge = [4,4,4,4]
 
-def merge_sort(list_target):
+def zero_to_end(list_target):
     for i in range(-1,-(len(list_target)),-1):
         if list_target[i] == 0 :
             del list_target[i]
             list_target.append(0)
 
 def merge_merge(list_target):
-    merge_sort(list_target)
-    for i in range(0,len(list_target)-1):
+    zero_to_end(list_target)
+    for i in range(len(list_target)-1):
         if list_target[i] == list_target[i+1]:
             list_target[i] += list_target[i+1]
             del list_target[i+1]
