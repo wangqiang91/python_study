@@ -10,4 +10,4 @@ def calculate_days(year,mouth,day):
     live_days = (now_time - birthday_time) / 3600 // 24
     print(live_days)
 
-calculate_days(1992,11,11)
+calculate_days(2010,1,1)
