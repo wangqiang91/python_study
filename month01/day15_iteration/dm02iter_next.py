@@ -53,3 +53,24 @@ controller.add_commodity("芭比娃娃")
 
 for item in controller:
     print(item)
+
+# practice 02
+
+class MyRangeNext:
+    def __init__(self,number):
+        self.number = number
+        self.begin = -1
+    def __next__(self):
+        self.begin += 1
+        if self.begin >= self.number:
+            raise StopIteration
+        return (self.begin)
+            
+class MyRange:
+    def __init__(self,number):
+        self.number = number
+    def __iter__(self):
+        return MyRangeNext(self.number)
+
+for number in MyRange(12):
+    print(number)
