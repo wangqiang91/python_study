@@ -15,5 +15,5 @@ gene_list = (item for item in list01 if type(item) == str)
 
 for item in list_list:
     print(item)
-for item in list_list:
+for item in gene_list:
     print(item)

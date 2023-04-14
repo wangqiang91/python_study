@@ -21,7 +21,7 @@ for i, item in enumerate(list02):
 list03 = [1, 2, 3, 4, 5]
 list04 = [11, 22, 33, 44, 55]
 dict1 = dict(zip(list03, list04))
-print(dict1)
+# print(dict1)
 
 map = [
     [2, 0, 0, 2],
@@ -32,10 +32,10 @@ map = [
 new_map = []
 for item in zip(*map):
     new_map.append(list(item))
-# print(new_map)
+print(new_map)
 
 new_map1 = [list(item) for item in zip(*map)]
-# print(new_map1)
+print(new_map1)
 
 # practice01：
 class Student_message:
