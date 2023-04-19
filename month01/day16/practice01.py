@@ -43,9 +43,19 @@ def count_gt_20000(item):
     return item.money > 20000
 print(IterableHelper.get_count(list_employees,count_gt_20000))
 
-
 def delete_1003(iter):
-    return list_employees[iter].eid == 1003
-IterableHelper.delete_single(list_employees,delete_1003)
+    return iter.eid == 1003
+# print(IterableHelper.delete_single(list_employees,delete_1003))
+# for item in list_employees:
+#     print(item.__dict__)
+# print("=======================") 
+
+def delete_xiaobai(iter):
+    return iter.name == "小白龙"
+# IterableHelper.delete_single(list_employees,delete_xiaobai)
+
+def delete_all_9001(iter):
+    return iter.did == 9001
+print(IterableHelper.delete_all(list_employees,delete_all_9001))
 for item in list_employees:
     print(item.__dict__)
