@@ -1,5 +1,6 @@
 """
-    lambda(匿名方法)
+    lambda(匿名方法):函数只能有一条语句； 不支持赋值语句；
+    lambda能定义的函数，def都可以定义；
 """
 def func01(p1,p2):
     return p1 > p2
