@@ -50,3 +50,37 @@ class IterableHelper:
                 del iterable[i]
                 sum += 1
         return f"共删除了{sum}条数据"
+    
+    @staticmethod
+    def select(iterable,condition):
+        """
+            根据传入的条件对可迭代对象中的每个元素进行选择
+        """
+        for item in iterable:
+            yield condition(item)
+
+    @staticmethod
+    def asc_employee(iterable,condition):
+        """
+            根据传入的条件对可迭代对象从小到大排序
+        :param iterable:可迭代对象
+        :param condition:传入的条件
+        """
+        for i in range(len(iterable)-1):
+            for j in range(i+1,len(iterable)):
+                if condition(iterable[i]) > condition(iterable[j]):
+                    iterable[i],iterable[j] = iterable[j],iterable[i]
+    
+    @staticmethod
+    def is_repeat(iterable,condition):
+        """
+            根据传入的条件判断是否有相同的数据
+        :param iterable:可迭代对象
+        :param conditon:条件
+        :return 布尔值
+        """
+        for i in range(len(iterable)-1):
+            for j in range(i+1,len(iterable)):
+                if condition(iterable[i]) == condition(iterable[j]):
+                    return "True"
+        return "false" 
