@@ -49,4 +49,4 @@ def is_repeat(iterable,condition):
                 return "True"
     return "false" 
 
-print(is_repeat(list_employees,lambda item:item.name))
+print(is_repeat(list_employees,lambda item:item.name)) 

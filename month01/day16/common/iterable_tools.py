@@ -1,4 +1,7 @@
 class IterableHelper:
+    """
+        可迭代对象助手：对可迭代对象常用的高阶函数；
+    """
     @staticmethod
     def find_single(iterable,condition):
         for item in iterable:
