@@ -1,0 +1,13 @@
+h2{
+    color: rgb(135, 24, 226); text-align: left;
+}
+#hangzhou{
+    color: aqua;
+}
+.class_beijing{
+    color: aquamarine;
+}
+h1,h2,body{
+    margin: 0;
+    padding: 0;
+}
