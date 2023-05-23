@@ -11,3 +11,15 @@ h1,h2,body{
     margin: 0;
     padding: 0;
 }
+.firstpage>li{
+    background-color: #96b97d;
+}
+.secondpage>li{
+    background-color: #64854c;
+}
+.firstpage li{
+    color: blue;
+}
+span:active{
+    color: rebeccapurple;
+}
