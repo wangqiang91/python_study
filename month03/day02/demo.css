@@ -1,25 +1,47 @@
+/* 标签选择器 */
 h2{
     color: rgb(135, 24, 226); text-align: left;
 }
+/* id选择器，唯一性，属性值不可重复 */
 #hangzhou{
     color: aqua;
 }
+/* 类选择器 */
 .class_beijing{
     color: aquamarine;
 }
+.class_ziti_color{
+    color: blue;
+}
+/* 群组选择器，为一组元素设置统一样式，标签、id、类都可以生成群组选择器*/
 h1,h2,body{
     margin: 0;
     padding: 0;
 }
+/* 子代选择器 */
 .firstpage>li{
     background-color: #96b97d;
+    font-size: 30px;
 }
 .secondpage>li{
     background-color: #64854c;
 }
+/* 后代选择器,范围可调整 */
 .firstpage li{
     color: blue;
 }
+/* 伪类选择器 */
+span{
+    color: aqua;
+    cursor: pointer;
+    background-color: #64854c;
+}
 span:active{
     color: rebeccapurple;
+    background-color: aqua;
+}
+span:hover{
+    font-size: 100px;
+    background-color: bisque;
+    transition: font-size 2s,background-color 2s;
 }
