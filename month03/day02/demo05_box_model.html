@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒模型_内容框、边框</title> 
+    <style>
+        /* 内容超出内容框，使用overflow(值：visible(默认)、hidden、scroll、auto)调整 */
+        #content_frame{width: 400px;height: 200px;background-color: aqua;
+            overflow: auto;
+        }
+        .content_frame{height: 200px;background-color: blueviolet;}
+        
+        #frame{width: 200px;height: 100px;background-color: aqua;overflow: auto;border: 3px dotted #f70909;}
+        .frame{height: 200px; background-color: blueviolet;border: 3px solid #f70909;border-top-width: 10px;border-top-color: rgb(16, 19, 233);}
+    </style>
+</head>
+<body>
+    <!-- 内容框 -->
+    <p id="content_frame">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eius quasi iure corporis sit, tempora mollitia ad quaerat? Labore necessitatibus eum est tenetur, animi architecto. Explicabo, ratione. Ratione, doloribus non.
+        Amet asperiores impedit quibusdam corporis laboriosam atque officia doloremque blanditiis illo officiis. Enim tenetur suscipit vitae alias expedita voluptatem odit. A laborum neque laboriosam tenetur dignissimos, et ipsa. Consectetur, accusamus.
+        Quis dolore soluta, nisi omnis perspiciatis dicta exercitationem culpa saepe repellat incidunt aut mollitia ipsa eius id ab ex quos illo ipsam asperiores voluptates officiis et nemo. Quo, vero sint?
+    </p>
+    <div class="content_frame"></div>
+
+    <!-- 边框 语法：border:width style color-->
+    <p id="frame">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sunt aut quam quia, exercitationem nihil fugiat adipisci expedita facilis cumque explicabo eum doloremque corporis suscipit voluptates assumenda? Saepe, cumque autem.
+    </p>
+    <div class="frame">
+    </div>
+</body>
+</html>
