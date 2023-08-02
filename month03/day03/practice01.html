@@ -7,17 +7,31 @@
     <title>边距练习</title>
     <style>
         #test{width: 179px; height: 186px;
-            border: 2px solid rgb(197, 194, 194);
-        }
+            border: 2px solid rgb(197, 194, 194); margin-bottom: 20px;}
         #test>span{display: block; width: 40px;height: 30px;
             background-color: rgb(189, 33, 33); color: aliceblue;
-            text-align: center; line-height: 30px; font-size: 16px;
-        }
+            text-align: center; line-height: 30px; font-size: 16px;}
         #test>h3{margin:0px; margin-top: -5px; margin-left: 44.5px;}
         #test>p{font-size: 15px; color: rgb(121, 122, 122); 
             margin: 0px; margin-left: 44.5px; }
         #test>div{text-align: center;}
+        
+        #sanxing{width: 240px; height: 132px; position: relative; /* 做为子元素的参照物*/}
+        #sanxing>p{background-color: rgb(233, 12, 148,0.5); color: aliceblue; margin: 0;
+            position: absolute; bottom:0; left: 0; right: 0;}
+
+        #gouwuche{width: 220px; height: 70px; background-color: rgb(242, 244, 247);font-size: 20px;
+            margin-top: 20px; text-align: center;line-height: 70px; position: relative;
+            border: 2px solid rgb(82, 80, 80); }
+        #gouwuche>span{position: absolute; right: 20px;}
+        #gouwuche>i{width: 18px;height: 18px; background-color: red; color: aliceblue; 
+            text-align: center; line-height: 18px; font-style: normal;
+            border-radius: 10px 10px 10px 0;
+            position: absolute; }
+
+        #tankuang{width: 122px;margin-top: 20px; position: fixed; right: 0; top: 50%; margin-top: -146px;}
     </style>
+    <link rel="stylesheet" href="day03.css">
 </head>
 <body>
     <div id="test">
@@ -26,8 +40,23 @@
         <p>秒杀低至1元</p>
         <div>
             <img src="imgs\img01.png" alt="">
-        </div>
-        
+        </div>     
+    </div>
+
+    <div id="sanxing">
+        <img src="imgs\img02.png" alt="">
+        <p>三星再现关闭手机工厂风波</p>
+    </div>
+
+    <div id="gouwuche">
+        我的购物车
+        <span>&gt;</span>
+        <i>1</i>
+    </div>
+
+    <div id="tankuang">
+        <img src="imgs\img02-5.png" alt="" class="img1">
+        <img src="imgs\img01-5.png" alt="" class="img2">
     </div>
 </body>
 </html>

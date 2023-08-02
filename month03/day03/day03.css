@@ -1,0 +1,28 @@
+/* demo02_浮动布局 */
+#FDBJ{list-style-type: none;padding: 0;margin: 0;}
+#FDBJ>li{float: left;}
+.catalogue{color: rgb(73, 72, 71);}
+.tab{margin: 0 15px;padding: 0 5px; cursor: pointer;}
+.tab:hover{background-color: red;color: aliceblue;}
+#FDBJ>p{clear:both;}
+
+/* demo02_定位布局_相对定位relative */
+#DWBJ1{width: 200px; height: 200px; background-color: red;
+    position: relative; top: 200px; left: 200px;
+}
+#DWBJ2{width: 200px; height: 200px; background-color: rgb(83, 13, 245); margin-bottom: 20px;}
+
+/* demo02_定位布局_绝对定位absolute */
+#JDDW{width: 300px; height: 300px; border: 5px solid green; margin: 0 auto;
+    position: relative; /* 为子元素做参照物*/
+}
+#JDDW>div{width: 100px; height: 100px; background-color: aqua;
+    position: absolute; bottom: 0; right: 20px;
+}
+
+/* demo02_定位布局_固定定位fixed */
+#GDDW{width: 100px; height: 100px; background-color: rgb(21, 193, 236); 
+    position: fixed; right: 0;}
+.p1{height: 1000px; background-color: chartreuse;} /*定位元素与正常元素发生堆叠，永远是已定位元素在上；*/
+.p2{height: 1000px; background-color: rgb(17, 154, 233); position: relative;} /*同为已定位元素发生堆叠，按照代码执行顺序，后来者居上；*/
+.p3{height: 1000px; background-color: rgb(151, 25, 224);}
