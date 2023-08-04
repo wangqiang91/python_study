@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>js日常使用</title>
+    <title>js数据类型、运算符</title>
 </head>
+
 <body>
     <script>
         var num1 = 12;
@@ -17,6 +19,36 @@
         console.log(Number(true));
         console.log(Number(null));
         console.log(Number(undefined)); //NaN表示not a number
+
+        // var year = prompt("生日年份：");
+        // var month = prompt("生日月份：");
+        // var day = prompt("生日日期：");
+        // console.log(`您的生日是：${year}年${month}月${day}日`)
+
+        //算术运算符
+        var n = 3;
+        var i = 1;
+        n = (i++ + 4 / ++i + --i) * 6 + i++
+        console.log(n) //28
+        console.log(i) //3
+
+        //比较运算符
+        console.log(5=="5") //相等不考虑数据类型，只做值的比较，会自动转换类型；
+        console.log(5==="5") //全等需要数据类型一致且值相等；
+
+        // 逻辑运算符
+        // var year1 = prompt("请输入年份：")
+        // var isLeapYear = (year1%4==0 && year1%100!=0 ) || (year1%400==0)
+        // console.log(isLeapYear)
+
+        // 三目运算符
+        // var num1 = prompt("输入第一个数字：");
+        // var num2 = prompt("输入第二个数字：");
+        // console.log(num1>num2?num1:num2)
+
+        var age = prompt("请输入年龄：");
+        console.log(age>18?"成年了":"未成年");
     </script>
 </body>
+
 </html>
