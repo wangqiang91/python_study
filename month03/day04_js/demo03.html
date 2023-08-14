@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数组</title>
+</head>
+<body>
+    <script>
+        // 数组  没有反向索引，即arr[-1]不存在；
+        var arr = [1,2,3,4,5,6];
+        console.log(arr);
+        console.log(arr[2]);
+        console.log(arr.slice(1,4));
+
+        // i表示arr中的索引，非值；
+        for (var i in arr){console.log(i)}; 
+
+        var arr2 = new Array(3);
+        for (var i =0;i<arr2.length;i++){
+            arr2[i] = i
+        }
+        console.log(arr2)
+    </script>
+</body>
+</html>

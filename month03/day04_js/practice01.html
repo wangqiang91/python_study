@@ -8,22 +8,57 @@
 </head>
 <body>
     <script>
-        // 输入分数，判断等级 A B 。。
-        var score = Number(prompt("请输入分数"));
-        switch(parseInt(score/10)){
-            case 10:
-            case 9:
-                console.log("A");
-                break;
-            case 8:
-                console.log("B");
-                break;
-            case 7:
-                console.log("C")
-            default:
-                console.log("不及格")
+    // 输入分数，判断等级 A B 。。
+        // var score = Number(prompt("请输入分数"));
+        // switch(parseInt(score/10)){
+        //     case 10:
+        //     case 9:
+        //         console.log("A");
+        //         break;
+        //     case 8:
+        //         console.log("B");
+        //         break;
+        //     case 7:
+        //         console.log("C")
+        //     default:
+        //         console.log("不及格")
             
+        // }
+    // 通过类对象创建固定长度的数组，将1-10条件到数组中，打印数组中的偶数；
+        var arr1 = new Array(10);
+        for (var i = 0;i<arr1.length;i++){
+            arr1[i] = i+1;
+            if (arr1[i] % 2==0){
+                console.log(arr1[i]);
+            }
         }
+    // 有一个数组A，创建一个长度相等的数组B，将数组A的元素2倍放在数组B中；
+        var A = [2,4,6,9,8];
+        var B = new Array(A.length);
+        for (var i=0; i<B.length; i++){
+            B[i] = A[i] * 2;
+        }
+        console.log(B);
+
+    // 逢7过1，打印1-100之间的逢7过(除了7的倍数，个位是7，十位是7)
+        for (var i=1;i<=100;i++){
+            if (i % 7==0 || i % 10 ==7 || parseInt(i / 10) == 7){
+                continue
+            }
+            else{
+                console.log(i)
+            }
+        }
+
+    // 打印1-100之间个位数不是3,5,8的数字的和
+    var total = 0
+    for (var i=1;i<100;i++){
+            if (i % 10==3 || i % 10 ==5 || i % 10 == 8){
+                continue
+            }
+            total += i;
+        }
+    console.log(total);
     </script>
 </body>
 </html>
