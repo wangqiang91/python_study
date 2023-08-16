@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>操作页面元素</title>
+</head>
+<body>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ul>
+    <input type="text" id="wd" placeholder="请输入">
+    <h1 id="show">将用户输入写到h1中显示</h1>
+
+    <script>
+        var list_li = document.getElementsByTagName("li")
+        console.log(list_li)
+        for(var i = 0 ; i<list_li.length; i++){
+            console.log(list_li[i])
+            list_li[i].onclick = function() {
+                console.log("点击拉")
+            }
+        }
+    </script>
+</body>
+</html>

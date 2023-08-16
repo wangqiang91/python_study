@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function(匿名函数、作用域)</title>
+</head>
+<body>
+    <script>
+        function fn(){
+            console.log("这是通过正常声明的函数fn")
+        }
+        fn()
+        // 匿名函数
+        var fn1 = function(){
+            console.log("这是通过匿名函数赋值给变量的函数")
+        }
+        fn1()
+    </script>
+
+    <!-- 匿名函数的用法 -->
+    <button id="btn">
+        点击调用函数
+    </button>
+    <script>
+        var get_btn = document.getElementById("btn")
+        console.log(get_btn)
+        console.log(get_btn.id)
+        // 为按钮的点击事件绑定一个函数
+        get_btn.onclick = function(){
+            console.log("点击按钮执行")
+        }; 
+    </script>
+
+    <!-- 函数的作用域 -->
+    <script>
+        // var a = 6;
+        // function yu(){
+        //     // 函数内部的变量，在函数执行前，会提前到当前作用域的最上方，但不会赋值过去；
+        //     console.log(a)
+        //     var a = 3
+        // }
+        // yu()
+        // console.log(a)
+
+        function fun1(){
+            var a = 10;
+            var b = 20;
+            // function myAdd(){
+            //     return a+b;
+            // }
+            // return myAdd
+            return function(){
+                return a+b
+            }
+        }
+        console.log(fun1());
+        var Add = fun1();
+        console.log(Add())
+    </script>
+</body>
+</html>
