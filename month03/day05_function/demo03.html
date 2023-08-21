@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+</head>
+<body>
+    <h1 id="title">hello</h1>
+    <ul>
+        <li>第一行</li>
+        <li>第二行</li>
+        <li>第三行</li>
+        <li>第四行</li>
+    </ul>
+    <script src="jquery-1.11.3\jquery.min.js"></script>
+    <script>
+    // js语法
+        // function $(id){
+        //     return document.getElementById(id);
+        // }
+        // var title1 = $("title");
+        // title.style.color = "red";
+    // jQuery语法 
+        $('#title').css("color","red"); //同上诉js功能一致；
+        console.log($)   //校验jQuery是否导入成功；
+        console.log($('#title'));   //获取id是title的元素
+        console.log($("li"));       //获取标签时li的元素
+        $('li').css("font-size","30px")     //设置所有li标签元素的字体大小为30px
+        $("li:first").css("font-size","60px")   //第一个li的字体大小变为60px
+        // 第一行li水平居中
+        $("li:first").css("text-align","center");
+        // 第三个li 字体加粗
+        $("li:eq(2)").css("font-weight","bold");
+        //除第一个li外，其他的li加下划线
+        $("li:gt(0)").css("text-decoration","underline");
+    </script>
+</body>
+</html>

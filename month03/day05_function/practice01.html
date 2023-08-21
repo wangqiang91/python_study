@@ -13,7 +13,7 @@
         <li class="catalogue">难度：</li>
         <li class="tab">全部</li>
         <li class="tab">初级</li>
-        <li class="tab">中级</li>
+        <li class="tab active">中级</li>
         <li class="tab">高级</li>
         <p></p>
     </ul>
@@ -21,9 +21,13 @@
         var tab_list = document.getElementsByClassName("tab")
         console.log(tab_list)
         for(var i =0; i<tab_list.length; i++){
-            console.log(tab_list[i])
+            // console.log(tab_list[i])
             tab_list[i].onclick = function(){
-                console.log("点击变色拉")
+                // 找到带有.avtive的页面元素；
+                var prev = document.getElementsByClassName("active")[0]
+                // 去掉这个元素的class.active；
+                prev.className = "tab"
+                this.className = "tab active"
             }
         }
     </script>

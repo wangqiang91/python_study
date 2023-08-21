@@ -5,6 +5,7 @@
 .tab{margin: 0 15px;padding: 0 5px; cursor: pointer;}
 .tab:hover{background-color: red;color: aliceblue;}
 #FDBJ>p{clear:both;}
+.active{background-color: blueviolet;}
 
 /* demo02_定位布局_相对定位relative */
 #DWBJ1{width: 200px; height: 200px; background-color: red;

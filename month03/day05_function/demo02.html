@@ -12,7 +12,7 @@
         <li>item2</li>
         <li>item3</li>
     </ul>
-    <input type="text" id="wd" placeholder="请输入">
+    <input type="text" id="wd" placeholder="请输入文案">
     <h1 id="show">将用户输入写到h1中显示</h1>
 
     <script>
@@ -23,6 +23,16 @@
             list_li[i].onclick = function() {
                 console.log("点击拉")
             }
+        }
+        var wd = document.getElementById("wd");
+        var show = document.getElementById("show");
+        wd.onfocus = function(){console.log("获取焦点")}
+        wd.onblur = function(){console.log("失去焦点")};
+        wd.onchange = function(){console.log("值发生改变的时候")};
+        wd.oninput = function(){
+            // console.log("输入内容发生改变；")
+            show.innerHTML = wd.value;
+            show.style = "color:red";
         }
     </script>
 </body>
