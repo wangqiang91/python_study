@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>操作页面内容、元素</title>
+    <style>
+        #tankuang{width: 122px;margin-top: 20px; position: fixed; right: 0; top: 50%; margin-top: -146px;transition: all 0.5s;}
+    </style>
+</head>
+<body>
+    <input type="text" id="wd" placeholder="请输入内容">
+    <h1 id="show"></h1>
+    <script src="jquery-1.11.3\jquery.min.js"></script>
+    <script>
+        // 给wd的input事件绑定一个方法
+        $('#wd').on('input',function(){
+            // 把wd的值给到id是show的元素中  
+            $('#show').html($('#wd').val())
+        });
+    </script>
+<!-- ======================================================= -->
+    <div>
+        <input type="text" placeholder="请输入用户名：">
+    </div>
+    <div>
+        <input type="password" placeholder="请输入密码">
+    </div>
+    <div>
+        <input type="checkbox" id="chk">请阅读协议
+        <a href="https://expo.jiehun.com.cn/?src=zhubiaoti&uid=baidudapinpai" target="_blank">协议1</a>
+        <a href="https://www.baidu.com" target="_blank">协议2</a>
+    </div>
+    <button id="btn">提交</button>
+    <script>
+        $("#btn").on('click',function(){
+             var res = $("#chk").prop("checked")
+             console.log(res?"提交成功":"提交失败")
+        })
+    </script>
+    <!-- =================================================== -->
+    <div id="tankuang">
+        <img src="..\day03\imgs\img02-5.png" alt="" class="img1">
+        <img src="..\day03\imgs\img01-5.png" alt="" class="img2">
+    </div>
+    <script>
+        $("img:last").on("click",function(){
+            $("#tankuang").css("opacity","0")
+        })
+    </script>
+</body>
+</html>

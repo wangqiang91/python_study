@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>添加页面元素</title>
+</head>
+<body>
+    <button id="btn">加载学生信息</button>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>学号</th>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>分数</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>嘿嘿</td>
+                <td>20</td>
+                <td>99</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="jquery-1.11.3\jquery.min.js"></script>
+    <script>
+        data = [
+        {'sid':1001,'sname':"ahuan1",'age':18,'score':90},
+        {'sid':1002,'sname':"ahuan2",'age':19,'score':80},
+        {'sid':1003,'sname':"ahuan3",'age':18,'score':60},
+        {'sid':1004,'sname':"ahuan4",'age':17,'score':88},
+        ]
+// 把data的数据加到表格中，方法1：
+        $('#btn').on("click",function(){
+            for (i=0;i<data.length;i++){
+                var html = `<tr>
+                <td>${data[i]['sid']}</td>
+                <td>${data[i]['sname']}</td>
+                <td>${data[i]['age']}</td>
+                <td>${data[i]['score']}</td>
+                </tr>`;
+                $('tbody').append(html);
+            }
+
+        })
+// 把data的数据加到表格中，方法2：
+        $("#btn").on("click",function(){
+            $.each(data,function(i,stu){
+                var html1 = `<tr>
+                    <td>${stu.sid}</td>
+                    <td>${stu.sname}</td>
+                    <td>${stu.age}</td>
+                    <td>${stu.score}</td>
+                </tr>`;
+                $('tbody').append(html1);
+            })
+        });
+    </script>
+    
+</body>
+</html>
