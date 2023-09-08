@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select name="" id="prov">
+        <option value="0">请选择省份</option>
+    </select>
+    <select name="" id="city">
+        <option value="0">请选择城市</option>
+    </select>
+    <select name="" id="area">
+        <option value="0">请选择县区</option>
+    </select>
+    <script src="..\day05_function\jquery-1.11.3\jquery.min.js"></script>
+    <script src="data.js"></script>
+    <script>
+        // var data_prov = [
+        //     {"provID":1001,"provName":"浙江"},
+        //     {"provID":1001,"provName":"新疆"},
+        //     {"provID":1001,"provName":"江西"}
+        // ]
+        // $.each(data_prov,function(index,prov){
+        //    var html_prov = `<option value="${prov.provID}">${prov.provName}</option>`;
+        //    $("#prov").append(html_prov)
+        // })
+        
+        // 将重复使用的对象存成变量；
+        var $prov = $("#prov");
+        var $city = $("#city");
+        var $area = $("#area");
+        // 将data数据中的省份加入到下拉菜单#prov中；
+        $.each(data,function(index,prov){
+            var html_prov = `<option value="${prov.provID}">${prov.provname}</option>`;
+            $prov.append(html_prov)
+        })
+        // 改变省份，重置城市并显示对应城市；
+        $prov.on("change",function(){}); //end on
+    </script>
+</body>
+</html>
