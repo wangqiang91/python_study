@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="..\day05_function\jquery-1.11.3\jquery.min.js"></script>
+</head>
+<body>
+    <h1>原始的h1标签</h1>
+    <button id="btn">点击添加</button>
+    <script>
+        $("#btn").on("click",function(){
+            $(this).before(`<h1>点击按钮添加的</h1>`)
+            $("h1").css("color","red")
+        })
+        //事件委托，如果要对使用js动态加载的元素添加事件，可以将事件绑定给已经存在的父元素，
+        // 然后再指定触发事件的选择器；
+        
+        $("body").on("click","h1",function(){
+            $(this).css({
+                "color":"blue",
+                "text-align":"center"
+            })
+        })
+    </script>
+</body>
+</html>
