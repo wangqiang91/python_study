@@ -1,0 +1,276 @@
+/* 首页样式表文件 */
+/* 初始化页面样式 */
+body,h1,h2,h3,h4,h5,h6,p,ul{
+  padding: 0;
+  margin: 0;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font: 16px 'Courie New';
+  background-color: #f2f2f0;
+}
+/*********header********/
+#header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #555;
+  z-index: 999;
+}
+#nav{
+  width: 1140px;
+  height: 80px;
+  margin: 0 auto;
+  line-height: 80px;
+}
+/* logo */
+#nav h1{
+  float: left;
+  color: #c1edf2;
+  cursor: pointer;
+  font-size: 26px;
+}
+#nav ul{
+  float: left;
+  margin-left: 120px;
+}
+#nav ul li{
+  float: left;
+  margin-right:40px; 
+}
+#nav a{
+  color: #dff0f0;
+}
+#nav a:hover{
+  color: #fff;
+}
+/* 登录注册 */
+#nav div{
+  float: right;
+}
+#login{
+  margin-right: 80px;
+}
+
+
+
+
+/*******主体内容******/
+#main{
+  width: 1140px;
+  margin: 100px auto 0; 
+}
+
+/* 轮播图 */
+.fader{
+  position: relative;
+  float: left;
+  width: 66%;
+}
+.slide{
+  width: 100%;
+}
+.slide img{
+  width: 100%;
+}
+
+/* 图片上的文字 定位到.fader下方  字体变大一些 半透明黑色背景  白色字体 字体距离左侧边框远一些 */
+.slide span{
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  /* right: 0; */
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 24px;
+  color: #fff;
+  padding: 5px 0 5px 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* 左右箭头   调整字体大小60px 字体颜色白色  宽60px 高度80px 设置字体水平垂直居中 */
+/* 绝对定位   在.fader垂直居中  分别距离左右两侧60px  opacity:0; */
+/* 鼠标移入.fader时  左侧箭头距离fader左侧0px opacity:1;*/
+/* 鼠标移入.fader时  右侧箭头距离fader右侧0px opacity:1;*/
+.prev,.next{
+  position: absolute;
+  top: 50%;
+  margin-top:-40px;
+  font-size: 90px;
+  color: #fff;
+  width: 60px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.5s , left 0.5s , right 0.5s;
+}
+.prev{
+  left: 60px;
+}
+.next{
+  right: 60px;
+}
+.fader:hover .prev{
+  opacity: 1;
+  left: 0;
+}
+.fader:hover .next{
+  opacity: 1;
+  right: 0;
+}
+.toppic{
+  float: right;
+  /* border: 5px solid red; */
+  width: 33%;
+  /* height: 500px; */
+}
+/* 为文字定位做参照物 */
+.toppic>div{
+  position: relative;
+  background-color: #000;
+}
+.toppic>div:first-child{
+  margin-bottom: 13px;
+}
+/* 侧边图片   宽度100% */
+.toppic img{
+  width: 100%;
+  display: block;
+  height: 205px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.toppic>div:hover img{
+  opacity: 1;
+}
+/* 底边文字  参照div做绝对定位 定位到div底部 宽度占100%  半透明深黑色背景 白色字体 调整文字的位置距离边框远一些  */
+.toppic p{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  width: 100%;
+  padding: 2px 0 2px 10px;
+  box-sizing: border-box;
+}
+/* 左上角文字 参照div做绝对定位 距离左上20px 半透明深黑色背景 白色字体 字体12px 水平垂直居中  边框圆角2px*/
+.toppic span{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.clear{
+  clear: both;
+}
+
+/*********blogs*********/
+.blogsbox{
+  margin-top: 20px;
+  /* border: 5px solid red;
+  height: 1000px; */
+}
+.blogs{
+  background-color: #fff;
+  margin-bottom: 20px;
+  /* height: 300px; */
+  padding: 20px;
+  overflow: hidden;
+}
+/* 博客标题  字体20px 颜色color#555  鼠标移入时 字体颜色#337ab7  鼠标变成小手 */
+/* 博客图片 */
+/*  div 宽度30% 高度180px 浮动  调整距离 */
+/* img  宽高100% */
+.blogs>h3{
+  font-size: 20px;
+  color: #555;
+  cursor: pointer;
+}
+.blogs>h3:hover{
+  color: #337ab7;
+}
+/* 图片 */
+.blogs>div{
+  width: 30%;
+  height: 180px;
+  float: left;
+  margin: 10px 20px 0 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+.blogs img{
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+}
+.blogs img:hover{
+  transform: scale(1.1);
+  /* transform: rotate(180deg); */
+}
+/* 文字 */
+.blogs p{
+  color: #555;
+  font-size: 14px;
+  margin-top: 20px;
+}
+/* 信息列表   li中文字水平排列
+字体大小12px 字体颜色#748594
+鼠标移入时颜色变成黑色   指针变成小手
+*/
+/* 添加背景图片auicon.jpg  为每一个li调整位置 显示不同的背景图 */
+.blogs ul{
+  margin-top: 30px;
+}
+.blogs li{
+  float: left;
+  font-size: 12px;
+  color: #748594;
+  cursor: pointer;
+  margin-right: 30px;
+  background-image: url('../images/auicon.jpg');
+  background-repeat: no-repeat;
+  padding-left: 18px;
+}
+.blogs li:hover{
+  color: #000;
+}
+.lmname{
+  background-position-y: -24px;
+}
+.timer{
+  background-position-y: -45px;
+}
+.view{
+  background-position-y: -66px;
+}
+.like{
+  background-position-y: -86px;
+}
+
+
+#footer{
+  width: 100%;
+  background-color: #555;
+  text-align: center;
+  padding: 20px 0;
+  color: #a5a4a4;
+}
+#footer a{
+  color: #a5a4a4;
+}
+#footer a:hover{
+  color: #c1edf2;
+}

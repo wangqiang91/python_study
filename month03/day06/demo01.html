@@ -11,10 +11,10 @@
         <option value="0">请选择省份</option>
     </select>
     <select name="" id="city">
-        <option value="0">请选择城市</option>
+        <option value="1">请选择城市</option>
     </select>
     <select name="" id="area">
-        <option value="0">请选择县区</option>
+        <option value="2">请选择县区</option>
     </select>
     <script src="..\day05_function\jquery-1.11.3\jquery.min.js"></script>
     <script src="data.js"></script>
@@ -28,18 +28,56 @@
         //    var html_prov = `<option value="${prov.provID}">${prov.provName}</option>`;
         //    $("#prov").append(html_prov)
         // })
-        
+       
         // 将重复使用的对象存成变量；
-        var $prov = $("#prov");
-        var $city = $("#city");
-        var $area = $("#area");
+        var $prov = $('#prov');
+        var $city = $('#city');
+        var $area = $('#area');
         // 将data数据中的省份加入到下拉菜单#prov中；
+// 1.显示省份
         $.each(data,function(index,prov){
-            var html_prov = `<option value="${prov.provID}">${prov.provname}</option>`;
-            $prov.append(html_prov)
+            var html = `<option value="${prov.provId}">${prov.provname}</option>`;
+            $prov.append(html)
         })
+// 2.显示城市
         // 改变省份，重置城市并显示对应城市；
-        $prov.on("change",function(){}); //end on
+        $prov.on('change',function()
+        {
+        //重置城市
+        $city.html(`<option value="1">请选择城市</option>`);
+        $area.html(`<option value="2">请选择县区</option>`)
+        $.each(data,function(i,prov)
+        {
+            //当选中的城市和遍历的某一城市一致时；
+            if($prov.val() == prov.provId)
+            {
+                //遍历该省份下的城市并显示；
+                $.each(prov.citys,function(index,city)
+                {
+                    var html= `<option value="${city.cityId}">${city.cityname}</option>`;
+                    $city.append(html);
+                });
+            }
+        }) // end each
+        });//end on
+
+// 3.显示区县
+        $city.on('change',function(){
+            $area.html(`<option value="2">请选择县区</option>`)
+            $.each(data,function(i,prov){
+            if($prov.val() == prov.provId){
+                $.each(prov.citys,function(i,city){
+                    if($city.val() == city.cityId){
+                        $.each(city.areas,function(i,area){
+                            var html = `<option value="${area.areaId}">${area.areaname}</option>`;
+                            $area.append(html)
+                        })
+                    }
+                })
+            }
+        })
+        })
+        
     </script>
 </body>
 </html>

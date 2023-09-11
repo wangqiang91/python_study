@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="..\day05_function\jquery-1.11.3\jquery.min.js"></script>
+    <script>
+        console.log($('h1'))
+        window.onload = function(){
+            console.log("最后执行2")
+        }
+    </script>
+    <script src="red.js"></script>
+    <script src="center.js"></script>
+</head>
+<body>
+    <h1>hello world</h1>
+    <script>
+        console.log($('h1'));
+        $('h1').css('color','red')
+        console.log("最后执行1")
+    </script>
+</body>
+</html>
