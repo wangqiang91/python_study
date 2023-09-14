@@ -54,4 +54,5 @@ select * from sanguo where attack > (select attack from sanguo where country = "
 use exercise;
 select author,AVG(price)  from books GROUP BY author;
 select press,COUNT(*) from books GROUP BY press;
-select press_time,MAX(price),MIN(price)  from books GROUP BY press_time
+select press_time,MAX(price),MIN(price)  from books GROUP BY press_time;
+select press,AVG(price) from books GROUP BY press HAVING MAX(price)  > 50 ORDER BY AVG(price) DESC
