@@ -8,6 +8,40 @@ def find_line(data):
         if data == list_line[0]:
             file_open.close()
             return line
-print(find_line("one1"))
+# print(find_line("one1"))
+
+lujin = r'C:\Users\Administrator\Downloads\\'
+def copy_file(filename):
+    fr1 = open(lujin+filename,"rb")
+    fr2 = open(r"month02\day03\\"+filename,"wb")
+    while True:
+        data = fr1.read(2048)
+        if not data:
+            break
+        fr2.write(data)
+    fr1.close()
+    fr2.close()
+# copy_file("th.jpg")
 
 
+import time
+def write_time_tolog():
+    fr = open("month02\day03\my.log","a",encoding="utf-8",buffering=1)
+    fr.seek(0)
+    num = len(fr.readlines()) + 1
+    while True:  
+        fr.write("%d. %s\n"%(num,time.ctime()))
+        # fr.flush()   #用buffering = 1代替；
+        num = num + 1
+        time.sleep(3)
+# write_time_tolog()
+
+import os
+fr_union = open(r"month02\day03\union.txt","a",encoding="utf-8")
+file_dir = "month02\day03\homework_data"
+file_list = os.listdir(file_dir)
+for item in file_list:
+    fr = open(file_dir + "\\" + item,"r",encoding="utf-8")
+    for line in fr:
+        fr_union.write(line)
+    fr_union.write("\n")
