@@ -8,7 +8,8 @@ def find_line(data):
         if data == list_line[0]:
             file_open.close()
             return line
-# print(find_line("one1"))
+    return "not find"
+print(find_line("home"))
 
 lujin = r'C:\Users\Administrator\Downloads\\'
 def copy_file(filename):
@@ -37,11 +38,15 @@ def write_time_tolog():
 # write_time_tolog()
 
 import os
-fr_union = open(r"month02\day03\union.txt","a",encoding="utf-8")
 file_dir = "month02\day03\homework_data"
-file_list = os.listdir(file_dir)
-for item in file_list:
-    fr = open(file_dir + "\\" + item,"r",encoding="utf-8")
-    for line in fr:
-        fr_union.write(line)
-    fr_union.write("\n")
+def union():
+    fr_union = open(r"month02\day03\union.txt","w",encoding="utf-8")
+    file_list = os.listdir(file_dir)
+    for item in file_list:
+        fr = open(file_dir + "\\" + item,"r",encoding="utf-8")
+        for line in fr:
+            fr_union.write(line)
+        fr_union.write("\n")
+        fr.close()
+    fr_union.close()
+# union()
