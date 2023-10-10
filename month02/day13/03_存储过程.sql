@@ -33,3 +33,9 @@ delimiter ;
 set @n = 1;
 call proce_out(@n);
 select @n;
+
+show create procedure pro01; --查看创建pro01存储过程的语句；
+
+show procedure status where db = "stu"; --显示stu库下所有的存储过程；
+
+drop procedure if exists pro02; --删除存储过程；
