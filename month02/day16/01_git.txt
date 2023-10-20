@@ -1,0 +1,4 @@
+1、创建一个文件夹：mkdir project；
+以下命令都在project文件夹路径下执行；
+2、把文件夹变为一个git仓库：git init;
+把文件夹变为一个共享的git仓库：git init --bare 仓库名称;
