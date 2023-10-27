@@ -1,4 +1,11 @@
+Linux下生成ssh密钥：ssh-keygen=>cd .ssh=>cat id_rsa.pub=》复制内容到key；
+
 1、创建一个文件夹：mkdir project；
 以下命令都在project文件夹路径下执行；
 2、把文件夹变为一个git仓库：git init;
 把文件夹变为一个共享的git仓库：git init --bare 仓库名称;
+git push --force origin 强制更新当前代码到github中；
+
+把本地已有的仓库内容同步到github：在github新建一个空白仓库，在本地电脑进入本地仓库（cd 仓库名），在本地给远程仓库起一个名字，一般叫origin(git remote add origin 远程仓库ssh地址)，上传本地内容到仓库的master分支中（git push -u origin "master"）；
+
+视频看到0112PM，未开始看；
