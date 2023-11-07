@@ -13,8 +13,8 @@ def  handle(x,y):
             print("%d - %d = %d"%(x,y,x-y))
         else:
             sys.exit("子进程结束")
+p = Process(target=handle,kwargs={"x":4,"y":7})
 if __name__ == "__main__":
-    p = Process(target=handle,args=(4,7))
     p.start()
     while True:
         cmd = input(">>")
