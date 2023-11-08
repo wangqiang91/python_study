@@ -1,5 +1,6 @@
 from socket import *
 from multiprocessing import Process
+import sys
 ADDR = ("127.0.0.1",8888)
 def login(sock):
     """
@@ -24,8 +25,10 @@ def chat(sock,name):
         if not message:
             continue
         if message == "quit":
-            break
-        request = "chat " + name + " :" + message 
+            msg = "quit " + name
+            sock.sendto(msg.encode(),ADDR)
+            sys.exit("您已经退出聊天室")
+        request = "chat " + name + " " + message 
         sock.sendto(request.encode(),ADDR)     
 def recv_msg(sock):
     """
@@ -34,14 +37,16 @@ def recv_msg(sock):
     while True:
         data,addr = sock.recvfrom(1024)
         print(data.decode(),end="\n")
-def quit():
-    pass
+# def quit(sock,name):
+#     msg = "quit " + name
+#     sock.sendto(msg.encode(),ADDR)
+#     sys.exit("您已经退出聊天室")
 def main():
     sock = socket(AF_INET,SOCK_DGRAM)
     name = login(sock)
     p = Process(target=recv_msg,args=(sock,),daemon=True)
     p.start()
     chat(sock,name)
-    quit()
+    # quit()
 if __name__ == "__main__":
     main()
