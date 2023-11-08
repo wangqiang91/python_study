@@ -32,7 +32,7 @@ def quit():
 def do_request(udp_server):
     while True:
         request,addr = udp_server.recvfrom(1024)
-        data = request.decode().split(" ")
+        data = request.decode().split(" ",2)
         if data[0] == "login":
             login(udp_server,addr,data[1])
         elif data[0] == "chat":
