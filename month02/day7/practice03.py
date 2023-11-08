@@ -10,12 +10,21 @@ def is_prime(num):
         if num % i == 0:
             return False
     return True
-def precess_1():
+def precess_1(begin,end):
     prime = []
-    for i in range(1,1000001):
+    for i in range(begin,end):
         if is_prime(i):
             prime.append(i)
     print(sum(prime))
-begin = time.time()
-precess_1()
-print("花费时间：",time.time() - begin)
+def main():
+    begin = time.time()
+    list_pro = []
+    for item in range(1,100001,25000):
+        p = Process(target=precess_1,kwargs={"begin":item,"end":item+25000})
+        list_pro.append(p)
+        p.start()
+    for item in list_pro:
+        item.join()
+    print("花费时间：",time.time() - begin)
+if __name__ == "__main__":
+    main()
