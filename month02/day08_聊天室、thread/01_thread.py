@@ -16,3 +16,5 @@ for i in range(4):
         print(os.getpid(),"播放音乐02")
 t.join()
 print("a的最终值：",a)
+
+# 视频看到1231pm  未开始观看
