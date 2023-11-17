@@ -138,22 +138,17 @@ onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:
 _emit@resource://devtools/shared/event-emitter.js:242:32
 emit@resource://devtools/shared/event-emitter.js:186:18
 emit@resource://devtools/shared/event-emitter.js:330:18
-getMutations@resource://devtools/client/fronts/walker.js:309:10
-
-	Marionette enabled
-Dynamically enable window occlusion 0
-1700208857737	Marionette	INFO	Listening on port 56017
-WebDriver BiDi listening on ws://127.0.0.1:56008
-Read port: 56017
-1700208858001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:56008/devtools/browser/ef80025e-40b7-490f-949a-721ca3b6a916
-JavaScript warning: https://cdn3.xkw.com/skins/zxxk/js/newIndex/index.js?v=0.0317, line 1751: unreachable code after return statement
-JavaScript error: https://zxxkstatic.zxxk.com/ued/careMode/careMode.js, line 301: TypeError: this.currentMouseOverDom is null
-1700208870199	Marionette	INFO	Stopped listening on port 56017
+getMutations@resource://devtools/client/fronts/walkerJavaScript error: https://zxxkstatic.zxxk.com/ued/careMode/careMode.js, line 301: TypeError: this.currentMouseOverDom is null
+JavaScript error: https://www.zxxk.com/_nuxt/866533e.modern.js, line 2: TypeError: this.currentMouseOverDom is null
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1700214387055	Marionette	INFO	Stopped listening on port 60309
 Dynamically enable window occlusion 1
-[Parent 253048, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
-1700209058498	geckodriver	INFO	Listening on 127.0.0.1:56257
-1700209061542	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileG5hTjb"
+[Parent 265020, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+emp\\rust_mozprofileG5hTjb"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 1700209062089	Marionette	INFO	Marionette enabled
@@ -213,9 +208,9 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 Dynamically enable window occlusion 0
 1700210174959	Marionette	INFO	Listening on port 58093
 Read port: 58093
-1700210175022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1700210262610	geckodriver	INFO	Listening on 127.0.0.1:58217
-1700210265663	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileOw5mCB"
+1700210175022	RemoteAgent	WARN	TLS certificate errors will be1700214386272	Marionette	INFO	Stopped listening on port 58093
+Dynamically enable window occlusion 1
+mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileOw5mCB"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 1700210266151	Marionette	INFO	Marionette enabled
@@ -320,4 +315,5 @@ Dynamically enable window occlusion 0
 1700214191265	Marionette	INFO	Listening on port 62068
 Read port: 62068
 1700214191555	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sou1700214385572	Marionette	INFO	Stopped listening on port 62068
+Dynamically enable window occlusion 1
