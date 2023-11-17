@@ -311,3 +311,13 @@ Read port: 61553
 1700213650465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1700213667324	Marionette	INFO	Stopped listening on port 61553
 Dynamically enable window occlusion 1
+1700214187535	geckodriver	INFO	Listening on 127.0.0.1:62055
+1700214190588	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofiles4mScr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700214191074	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700214191265	Marionette	INFO	Listening on port 62068
+Read port: 62068
+1700214191555	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
