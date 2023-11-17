@@ -1,0 +1,313 @@
+1700205486039	geckodriver	INFO	Listening on 127.0.0.1:63596
+1700205489106	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63597" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile0tFJOn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700205491316	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700205491570	Marionette	INFO	Listening on port 63606
+WebDriver BiDi listening on ws://127.0.0.1:63597
+Read port: 63606
+1700205492066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63597/devtools/browser/d5d5c5b1-fa89-414f-a19e-3e993bf9efae
+JavaScript warning: https://cdn3.xkw.com/skins/zxxk/js/newIndex/index.js?v=0.0317, line 1751: unreachable code after return statement
+JavaScript error: https://zxxkstatic.zxxk.com/ued/careMode/careMode.js, line 301: TypeError: this.currentMouseOverDom is null
+1700205501610	Marionette	INFO	Stopped listening on port 63606
+Dynamically enable window occlusion 1
+1700206828187	geckodriver	INFO	Listening on 127.0.0.1:64322
+1700206831222	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64323" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileESLDXN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700206832111	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700206832305	Marionette	INFO	Listening on port 64330
+WebDriver BiDi listening on ws://127.0.0.1:64323
+Read port: 64330
+1700206832536	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64323/devtools/browser/44db6d38-e5c0-41d5-8f1e-03b0dc4774ff
+JavaScript warning: https://cdn1.xkw.com/skins/zxxk/js/newIndex/index.js?v=0.0317, line 1751: unreachable code after return statement
+JavaScript error: https://zxxkstatic.zxxk.com/ued/careMode/careMode.js, line 301: TypeError: this.currentMouseOverDom is null
+1700206839392	Marionette	INFO	Stopped listening on port 64330
+Dynamically enable window occlusion 1
+1700207301235	geckodriver	INFO	Listening on 127.0.0.1:64828
+1700207304258	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64829" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile6wMl6A"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700207304770	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700207304973	Marionette	INFO	Listening on port 64839
+WebDriver BiDi listening on ws://127.0.0.1:64829
+Read port: 64839
+1700207305215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64829/devtools/browser/54235edb-3d51-4ad4-aa7b-39feec02f2f8
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1700209276862	Marionette	INFO	Stopped listening on port 64839
+Dynamically enable window occlusion 1
+ng command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59901" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile3IigCE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700207823342	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700207823547	Marionette	INFO	Listening on port 59912
+WebDriver BiDi listening on ws://127.0.0.1:59901
+Read port: 59912
+1700207823770	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59901/devtools/browser/d2d297f2-9e53-4483-a7f1-da11ee0b06e5
+JavaScript warning: https://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.baidu.com."
+1700207831299	Marionette	INFO	Stopped listening on port 59912
+Dynamically enable window occlusion 1
+1700208070939	geckodriver	INFO	Listening on 127.0.0.1:60297
+1700208073969	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60298" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile6g2Ukj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700208074463	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700208074649	Marionette	INFO	Listening on port 60309
+Read port: 60309
+WebDriver BiDi listening on ws://127.0.0.1:60298
+1700208075309	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60298/devtools/browser/41a96c6b-1a22-4bc5-b1d7-f0a8ac301d71
+JavaScript warning: https://cdn1.xkw.com/skins/zxxk/js/newIndex/index.js?v=0.0317, line 1751: unreachable code after return statement
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript error: https://zxxkstatic.zxxk.com/ued/careMode/careMode.js, line 301: TypeError: this.currentMouseOverDom is null
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.error: "Unable to find target with innerWindowId:6442450945"
+JavaScript warning: https://static.geetest.com/static/js/fullpage.9.1.8-bfget5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn1.xkw.com/skins/zxxk/js/newIndex/index.js?v=0.0317, line 1751: unreachable code after return statement
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+JavaScript error: https://zxxkstatic.zxxk.com/ued/careMode/careMode.js, line 396: TypeError: window.careMode.destroyCareModeBar is not a function
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+console.error: "Unable to find target with innerWindowId:6442450956"
+console.error: "Unable to find target with innerWindowId:6442450956"
+console.error: "Unable to find target with innerWindowId:6442450956"
+console.error: "Unable to find target with innerWindowId:6442450956"
+console.error: "Unable to find target with innerWindowId:6442450956"
+console.error: "Unable to find target with innerWindowId:6442450956"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.zxxk.com."
+console.error: "Unable to find target with innerWindowId:6442450956"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.zxxk.com."
+JavaScript error: https://sso.zxxk.com/login?v=20231023, line 1: SyntaxError: expected expression, got '<'
+console.error: "Unable to find target with innerWindowId:6442450956"
+console.error: "Unable to find target with innerWindowId:6442450956"
+console.error: "Unable to find target with innerWindowId:6442450956"
+JavaScript warning: https://static.geetest.com/static/js/fullpage.9.1.8-bfget5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn1.xkw.com/skins/zxxk/js/newIndex/index.js?v=0.0317, line 1751: unreachable code after return statement
+console.error: "Unable to find target with innerWindowId:6442450966"
+console.error: "Unable to find target with innerWindowId:6442450966"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: https://zxxkstatic.zxxk.com/ued/careMode/careMode.js, line 301: TypeError: this.currentMouseOverDom is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.zxxk.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.zxxk.com."
+JavaScript error: https://sso.zxxk.com/login?v=20231023, line 1: SyntaxError: expected expression, got '<'
+console.error: "Unable to find target with innerWindowId:6442450967"
+console.error: "Unable to find target with innerWindowId:6442450967"
+JavaScript warning: https://static.geetest.com/static/js/fullpage.9.1.8-bfget5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn1.xkw.com/skins/zxxk/js/newIndex/index.js?v=0.0317, line 1751: unreachable code after return statement
+console.error: "Unable to find target with innerWindowId:6442450977"
+console.error: "Unable to find target with innerWindowId:6442450977"
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: https://zxxkstatic.zxxk.com/ued/careMode/careMode.js, line 301: TypeError: this.currentMouseOverDom is null
+console.error: "Unable to find target with innerWindowId:6442450978"
+console.error: "Unable to find target with innerWindowId:6442450978"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.zxxk.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.zxxk.com."
+JavaScript error: https://sso.zxxk.com/login?v=20231023, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://static.geetest.com/static/js/fullpage.9.1.8-bfget5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Unable to find target with innerWindowId:6442450988"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Unable to find target with innerWindowId:6442450988"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+	Marionette enabled
+Dynamically enable window occlusion 0
+1700208857737	Marionette	INFO	Listening on port 56017
+WebDriver BiDi listening on ws://127.0.0.1:56008
+Read port: 56017
+1700208858001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56008/devtools/browser/ef80025e-40b7-490f-949a-721ca3b6a916
+JavaScript warning: https://cdn3.xkw.com/skins/zxxk/js/newIndex/index.js?v=0.0317, line 1751: unreachable code after return statement
+JavaScript error: https://zxxkstatic.zxxk.com/ued/careMode/careMode.js, line 301: TypeError: this.currentMouseOverDom is null
+1700208870199	Marionette	INFO	Stopped listening on port 56017
+Dynamically enable window occlusion 1
+[Parent 253048, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+1700209058498	geckodriver	INFO	Listening on 127.0.0.1:56257
+1700209061542	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileG5hTjb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700209062089	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700209062297	Marionette	INFO	Listening on port 56269
+Read port: 56269
+1700209062547	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://cdn3.xkw.com/skins/zxxk/js/newIndex/index.js?v=0.0317, line 1751: unreachable code after return statement
+JavaScript error: https://zxxkstatic.zxxk.com/ued/careMode/careMode.js, line 301: TypeError: this.currentMouseOverDom is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.zxxk.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.zxxk.com."
+JavaScript error: https://sso.zxxk.com/login?v=20231023, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://static.geetest.com/static/js/fullpage.9.1.8-bfget5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1700209078297	Marionette	INFO	Stopped listening on port 56269
+Dynamically enable window occlusion 1
+1700209147730	geckodriver	INFO	Listening on 127.0.0.1:56456
+1700209150762	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileeup5Ez"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700209151282	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700209151488	Marionette	INFO	Listening on port 56468
+Read port: 56468
+1700209151744	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://cdn3.xkw.com/skins/zxxk/js/newIndex/index.js?v=0.0317, line 1751: unreachable code after return statement
+JavaScript error: https://zxxkstatic.zxxk.com/ued/careMode/careMode.js, line 301: TypeError: this.currentMouseOverDom is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.zxxk.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.zxxk.com."
+JavaScript error: https://sso.zxxk.com/login?v=20231023, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://static.geetest.com/static/js/fullpage.9.1.8-bfget5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1700209165403	Marionette	INFO	Stopped listening on port 56468
+Dynamically enable window occlusion 1
+1700209206214	geckodriver	INFO	Listening on 127.0.0.1:56771
+1700209209232	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileiT2kXk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700209209743	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700209209939	Marionette	INFO	Listening on port 56782
+Read port: 56782
+1700209210171	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn3.xkw.com/skins/zxxk/js/newIndex/index.js?v=0.0317, line 1751: unreachable code after return statement
+JavaScript error: https://zxxkstatic.zxxk.com/ued/careMode/careMode.js, line 301: TypeError: this.currentMouseOverDom is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.zxxk.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.zxxk.com."
+JavaScript error: https://sso.zxxk.com/login?v=20231023, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://static.geetest.com/static/js/fullpage.9.1.8-bfget5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1700209225244	Marionette	INFO	Stopped listening on port 56782
+Dynamically enable window occlusion 1
+1700210171231	geckodriver	INFO	Listening on 127.0.0.1:58081
+1700210174273	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile14hr47"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700210174778	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700210174959	Marionette	INFO	Listening on port 58093
+Read port: 58093
+1700210175022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1700210262610	geckodriver	INFO	Listening on 127.0.0.1:58217
+1700210265663	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileOw5mCB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700210266151	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700210266344	Marionette	INFO	Listening on port 58228
+Read port: 58228
+1700210266407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+1700210318185	Marionette	INFO	Stopped listening on port 58228
+Dynamically enable window occlusion 1
+ng command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileadUckF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700210309102	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700210309297	Marionette	INFO	Listening on port 58302
+Read port: 58302
+1700210309547	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1700210317350	Marionette	INFO	Stopped listening on port 58302
+Dynamically enable window occlusion 1
+1700212363947	geckodriver	INFO	Listening on 127.0.0.1:59954
+1700212366994	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileRLEKhb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700212367528	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700212367724	Marionette	INFO	Listening on port 59966
+Read port: 59966
+1700212367955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1700212374499	Marionette	INFO	Stopped listening on port 59966
+Dynamically enable window occlusion 1
+1700213149065	geckodriver	INFO	Listening on 127.0.0.1:60706
+1700213152102	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileAC3HYt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700213152616	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700213152808	Marionette	INFO	Listening on port 60719
+Read port: 60719
+1700213153054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1700213169959	Marionette	INFO	Stopped listening on port 60719
+Dynamically enable window occlusion 1
+ng command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileqIUm6z"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700213160103	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700213160302	Marionette	INFO	Listening on port 60759
+Read port: 60759
+1700213160538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1700213168574	Marionette	INFO	Stopped listening on port 60759
+Dynamically enable window occlusion 1
+1700213300271	geckodriver	INFO	Listening on 127.0.0.1:60887
+1700213303293	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileoS0mBc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700213303799	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700213303978	Marionette	INFO	Listening on port 60899
+Read port: 60899
+1700213304045	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1700213324250	Marionette	INFO	Stopped listening on port 60899
+Dynamically enable window occlusion 1
+ng command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileHrDlJ4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700213311309	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700213311507	Marionette	INFO	Listening on port 60931
+Read port: 60931
+1700213311753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1700213321768	Marionette	INFO	Stopped listening on port 60931
+Dynamically enable window occlusion 1
+1700213357601	geckodriver	INFO	Listening on 127.0.0.1:60996
+1700213360654	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofilebwxW5Q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700213361154	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700213361363	Marionette	INFO	Listening on port 61011
+Read port: 61011
+1700213361606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1700213373784	Marionette	INFO	Stopped listening on port 61011
+Dynamically enable window occlusion 1
+1700213646449	geckodriver	INFO	Listening on 127.0.0.1:61529
+1700213649495	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileMcY1xN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700213650001	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700213650219	Marionette	INFO	Listening on port 61553
+Read port: 61553
+1700213650465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1700213667324	Marionette	INFO	Stopped listening on port 61553
+Dynamically enable window occlusion 1

@@ -12,6 +12,6 @@ suite.addTest(unittest.makeSuite(TestAdd))
 # 4、执行测试用例
 # runner.run(suite)
 # 生成html格式测试报告
-with open("report.html","wb") as f:
+with open(r"month04\0308_unittest\report.html","wb") as f:
     runner = HTMLTestRunner(f,title = "测试报告")
     runner.run(suite)
