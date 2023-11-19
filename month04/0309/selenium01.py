@@ -21,7 +21,15 @@ class YuGong:
         for item in tab_list:
             print(item.text)
             print("*" * 50)
-        self.driver.quit()
+        # self.driver.quit()
+    def get_all_books(self):
+        while True:
+            self.get_books()
+            try:
+                self.driver.find_element(By.PARTIAL_LINK_TEXT,"后页").click()
+                sleep(2)
+            except Exception as e:
+                break
     def main(self):
         self.input_username()
         self.input_password()
@@ -29,4 +37,5 @@ class YuGong:
         self.driver.quit()
 
 if __name__ == "__main__":
-    YuGong().get_books()
+    YuGong().get_all_books()
+
