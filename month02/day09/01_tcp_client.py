@@ -1,6 +1,6 @@
 from socket import *
 client = socket()
-client.connect(("127.0.0.1",8880))
+client.connect(("127.0.0.1",8881))
 while True:
     msg = input(">>")
     client.send(msg.encode())

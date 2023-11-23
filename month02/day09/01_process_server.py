@@ -1,7 +1,7 @@
 """
     基于多进程的并发网络模型
 """
-from multiprocessing import process
+from multiprocessing import Process
 from socket import *
 host = "0.0.0.0"
 port = 8880
@@ -20,10 +20,14 @@ def main():
     sock.listen(5)
     #循环等待客户端链接
     while True:
-        conn,addr = sock.accept()
-        print("connect from:",addr)
-        # 为链接进来的客户端创建进程
-        p = process(target=handle,args=(conn,))
+        try:
+            conn,addr = sock.accept()
+            print("connect from:",addr)
+        except KeyboardInterrupt:
+            sock.close()
+            break
+        # 为链接进来的客户端创建进程,daemon=True设置主线结束，分支线随之结束；
+        p = Process(target=handle,args=(conn,),daemon=True)
         p.start()
 if __name__ == "__main__":
     main()
