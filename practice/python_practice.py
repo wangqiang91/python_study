@@ -167,10 +167,41 @@ def n20(n):
         if data % 7 == 0:
             yield data
         data += 1
-for i in n20(100):
-    print(i)
+# for i in n20(100):
+#     print(i)
+class Solution:
+    def findRelativeRanks(self , score ):
+        tmp = sorted(list(set(score))) # 去重排序
+        print(tmp)
+        tmp = dict(zip(tmp, list(range(len(tmp), 0, -1)))) # 每个元素的索引（名次，从1开始）
+        print(tmp)
+        res = [str(tmp[i]) for i in score] # 根据分数排名次
+        print(res)
 
+        for i in range(len(score)):
+            if res[i] == '1':
+                res[i] = 'Gold Medal'
+            if res[i] == '2':
+                res[i] = 'Silver Medal'
+            if res[i] == '3':
+                res[i] = 'Bronze Medal'
+        return res
+def test01(num):
+    sum = 0
+    for i in range(1,num+1):
+        for i in str(i):
+            if i == "1":
+                sum += 1
+    print(sum)
+def test02(str_data):
+    print(re.sub('[" "]',"%20",str_data))
+def test03(list1,list2):
+    list1 = list1 + list2
+    list1.sort()
+    print(list1)
 if __name__ == "__main__":
-    for i in n20(100):
-        print(i)
+    list1 = [1,6,12,18]
+    list2 = [3,5,9,20]
+    test03(list1,list2)
+
 
