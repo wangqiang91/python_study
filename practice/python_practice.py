@@ -5,6 +5,7 @@ month02-day08:聊天室,运用udp和多进程,创建聊天功能，多进程网�
 month02-day09:ftp文件传输,运用tcp和多线程,创建文件传输功能，多线程网络并发；
 """
 # https://blog.csdn.net/weixin_40547993/article/details/88928075
+from math import sqrt
 import re
 
 def n01_find_number():
@@ -199,9 +200,112 @@ def test03(list1,list2):
     list1 = list1 + list2
     list1.sort()
     print(list1)
+
+
+def n21():
+    h = 0
+    z = 0
+    while True:
+        action = input(">>")
+        if not action:
+            break
+        data = action.split(" ")
+        if data[0] == "UP":
+            z += int(data[1])
+        elif data[0] == "DOWN":
+            z -= int(data[1])
+        elif data[0] == "RIGHT":
+            h += int(data[1])
+        elif data[0] == "LEFT":
+            h -= int(data[1])
+    tuple1 = (int(h),int(z))
+    print(tuple1)
+    print(int(round(sqrt(tuple1[0]**2 + tuple1[1]**2))))
+
+def n22():
+    data = input(">>").split(" ")
+    item_dict = {}
+    for item in data:
+        if item not in item_dict.keys():
+            item_dict[item] = 1
+        else:
+            item_dict[item] += 1
+    for key in  item_dict.keys():
+        print(f"{key} : {item_dict[key]}")
+
+def n23(num):
+    return num ** 2
+
+def n24():
+    print(abs.__doc__)
+
+class N25:
+    a = 1
+    def __init__(self,b):
+        self.b = b
+
+def n26():
+    total = 0
+    for i in range(1,5):
+        for j in range(1,5):
+            for k in range(1,5):
+                if i != j and i != k and j != k:
+                    print(i*100+j*10+k)
+                    total += 1
+    print(total)
+
+def n27():
+    i = int(input(">>"))
+    sum = 0
+    arr = [1000000,600000,400000,200000,100000,0]
+    q = [0.01,0.015,0.03,0.05,0.075,0.1]
+    for idx in range(0,6):
+        if i > arr[idx]:
+            sum += (i - arr[idx]) * q[idx]
+        i = arr[idx]
+    print(sum)
+
+def n28():
+    import math
+    num = 1
+    while True:
+        if math.sqrt(num+100) - int(math.sqrt(num+100)) == 0 and math.sqrt(num+168) - int(math.sqrt(num+168)) == 0:
+            print(num)
+            break
+        num += 1
+def  n29():
+    for i in range(1,10):
+        for j in range(1,10):
+            print(f"{i}*{j}={i*j}",end=" ")
+        print("")
+
+def n30(score):
+    if score >= 90:
+        print("A")
+    elif score >= 60:
+        print("B")
+    else:
+        print("C")
+
+def n31():
+    for i in range(100,999):
+        if int(str(i)[0]) ** 3 + int(str(i)[1]) ** 3 + int(str(i)[2]) ** 3 == i:
+            print(i)
+
+def n32(num):
+    factors = []
+    i = 2
+    while i <= num:
+        if num % i == 0:
+            factors.append(i)
+            num = num // i
+            i = 2
+        else:
+            i += 1
+    return factors
+
 if __name__ == "__main__":
-    list1 = [1,6,12,18]
-    list2 = [3,5,9,20]
-    test03(list1,list2)
+    print(n32(7))
+
 
 
