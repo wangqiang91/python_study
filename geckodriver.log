@@ -1025,3 +1025,325 @@ console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/Ne
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://yg.test.zghbh.com."
 1701247703026	Marionette	INFO	Stopped listening on port 63912
 Dynamically enable window occlusion 1
+1701314947042	geckodriver	INFO	Listening on 127.0.0.1:64455
+1701314950082	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile7Z0BlG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701314950593	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701314950792	Marionette	INFO	Listening on port 64466
+Read port: 64466
+1701314951022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://movie.douban.com."
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1701315401117	Marionette	INFO	Stopped listening on port 64466
+Dynamically enable window occlusion 1
+ng command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofilexcx9hs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701315160957	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701315161115	Marionette	INFO	Listening on port 64861
+Read port: 64861
+1701315161340	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://movie.douban.com."
+[Parent 88860, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+1701315400401	Marionette	INFO	Stopped listening on port 64861
+Dynamically enable window occlusion 1
+1701315404546	geckodriver	INFO	Listening on 127.0.0.1:65152
+1701315407578	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileTSLHRn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701315408032	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701315408198	Marionette	INFO	Listening on port 65169
+Read port: 65169
+1701315408426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://movie.douban.com."
+1701315428233	Marionette	INFO	Stopped listening on port 65169
+Dynamically enable window occlusion 1
+1701316127226	geckodriver	INFO	Listening on 127.0.0.1:49863
+1701316130273	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileOt14Wh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701316130733	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701316130888	Marionette	INFO	Listening on port 49875
+Read port: 49875
+1701316131116	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1701318888685	Marionette	INFO	Stopped listening on port 49875
+Dynamically enable window occlusion 1
+ng command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofilejQyzLA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701316243068	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701316243232	Marionette	INFO	Listening on port 50119
+Read port: 50119
+1701316243469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1701318887858	Marionette	INFO	Stopped listening on port 50119
+Dynamically enable window occlusion 1
+1701318890459	geckodriver	INFO	Listening on 127.0.0.1:52059
+1701318893491	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileBGDkBZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701318893955	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701318894124	Marionette	INFO	Listening on port 52073
+Read port: 52073
+1701318894341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1701319196917	Marionette	INFO	Stopped listening on port 52073
+Dynamically enable window occlusion 1
+ng command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofilerMchZJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701319013891	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701319014069	Marionette	INFO	Listening on port 52260
+Read port: 52260
+1701319014306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1701319076881	Marionette	INFO	Stopped listening on port 52260
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 111))
+1701319106325	geckodriver	INFO	Listening on 127.0.0.1:52432
+1701319109382	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileSAcD6u"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701319109839	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701319110022	Marionette	INFO	Listening on port 52444
+Read port: 52444
+1701319110242	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://movie.douban.com."
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1701319196556	Marionette	INFO	Stopped listening on port 52444
+Dynamically enable window occlusion 1
+1701319198349	geckodriver	INFO	Listening on 127.0.0.1:52635
+1701319201408	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofilepbUbUI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701319201885	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701319202064	Marionette	INFO	Listening on port 52647
+Read port: 52647
+1701319202249	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1701319649775	Marionette	INFO	Stopped listening on port 52647
+Dynamically enable window occlusion 1
+1701319651524	geckodriver	INFO	Listening on 127.0.0.1:53241
+1701319654571	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileLz180m"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701319655042	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701319655208	Marionette	INFO	Listening on port 53254
+Read port: 53254
+1701319655425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1701319696424	Marionette	INFO	Stopped listening on port 53254
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: StorageError: Storage error: Error: IndexedDB: main/pioneer-study-addons-v1 pruneAttachments() IndexedDB:  execute() The application is shutting down
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:157:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:928:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:575:17
+
+console.error: (new Error("IndexedDB: main/pioneer-content-v2 getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+1701319697727	geckodriver	INFO	Listening on 127.0.0.1:53381
+1701319700773	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofilefyQjgW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701319701232	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701319701396	Marionette	INFO	Listening on port 53393
+Read port: 53393
+1701319701623	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1701319753147	Marionette	INFO	Stopped listening on port 53393
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/ms-images getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+[Parent 36500, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+1701319754420	geckodriver	INFO	Listening on 127.0.0.1:53530
+1701319757503	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileZxxvE3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701319757961	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701319758127	Marionette	INFO	Listening on port 53541
+Read port: 53541
+1701319758358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1701319859391	Marionette	INFO	Stopped listening on port 53541
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: blocklists/addons-bloomfilters sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/personality-provider-models getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1701319861048	geckodriver	INFO	Listening on 127.0.0.1:53715
+1701319864092	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileK0CiTK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701319864566	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701319864737	Marionette	INFO	Listening on port 53728
+Read port: 53728
+1701319864957	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1701320140394	Marionette	INFO	Stopped listening on port 53728
+Dynamically enable window occlusion 1
+ng command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofilezmPUP0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701320091842	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701320092008	Marionette	INFO	Listening on port 54011
+Read port: 54011
+1701320092225	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1701320134082	Marionette	INFO	Stopped listening on port 54011
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: StorageError: Storage error: Error: IndexedDB: main/doh-providers pruneAttachments() IndexedDB:  execute() The application is shutting down
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:157:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:928:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:575:17
+
+console.error: (new Error("IndexedDB: main/ms-language-packs getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+1701323793027	geckodriver	INFO	Listening on 127.0.0.1:56735
+1701323796049	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile0IH0vV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701323796516	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701323796692	Marionette	INFO	Listening on port 56747
+Read port: 56747
+1701323796919	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1701324019031	Marionette	INFO	Stopped listening on port 56747
+Dynamically enable window occlusion 1
+ng command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile84hM3g"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701323965201	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701323965374	Marionette	INFO	Listening on port 57093
+Read port: 57093
+1701323965606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript warning: https://turing.captcha.qcloud.com/tdc.js?app_data=7135869966683840512&t=1916664886?t=1701323978, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://turing.captcha.qcloud.com/tdc.js?app_data=7135869966683840512&t=1916664886?t=1701323978, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1701324015995	Marionette	INFO	Stopped listening on port 57093
+Dynamically enable window occlusion 1
+1701324022191	geckodriver	INFO	Listening on 127.0.0.1:57325
+1701324025214	mozrunner::runner	INFO	Running command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileygypdo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701324025670	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701324025836	Marionette	INFO	Listening on port 57338
+Read port: 57338
+1701324026068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1701325606610	Marionette	INFO	Stopped listening on port 57338
+Dynamically enable window occlusion 1
+ng command: "D:\\programfiles\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileHgQREf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701324143622	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701324143789	Marionette	INFO	Listening on port 57612
+Read port: 57612
+1701324144025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1701325604727	Marionette	INFO	Stopped listening on port 57612
+Dynamically enable window occlusion 1
