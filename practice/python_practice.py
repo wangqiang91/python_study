@@ -6,7 +6,9 @@ month02-day09:ftp文件传输,运用tcp和多线程,创建文件传输功能，�
 """
 # https://blog.csdn.net/weixin_40547993/article/details/88928075
 from math import sqrt
+import os
 import re
+import time
 
 def n01_find_number():
     for i in range(2000,3201):
@@ -304,8 +306,54 @@ def n32(num):
             i += 1
     return factors
 
+def n33():
+    str1 = "helloworld     hahahah saf "
+    # print(str1.center(8,"#"))
+    print(str1.replace(" ",""))
+
+def n34():
+    list1 = ["a","ab","ac",'123',"hhrh"]
+    # list1.reverse()
+    list1.pop()
+    # list1.sort(reverse=True)
+    list1.extend(range(5))
+    print(list1)
+    print(list1.count("a"))
+
+def n35():
+    str1 = " Don‘t cry because it is over, smile because it happened"
+    print(re.findall('[a-h]',str1))
+    re.sub(r', ',"#",str1)
+    print(re.sub('[" "]',"#",str1))
+
+def n36():
+    print(time.ctime())
+    print(time.strftime("%Y年%m月%d日%H-%M-%S"))
+
+
+
+def get_number_gt_1002():
+    list01 = [34,53,232,4355,3454,322]
+    for item in list01:
+        if item > 1002:
+            yield item
+
+def n37():
+    filepath = r"D:\个人\test"
+    dirs = os.listdir(filepath)
+    print(dirs)
+    for item in dirs:
+        os.chdir(filepath)
+        os.rename(item,"test-"+time.strftime('%Y%m%d%H%M%S')+".txt")
+        time.sleep(1)
+
+def n38():
+    num = input(">>")
+    print(f"{num}是一个{len(num)}位数")
+    print(num[::-1])
+    
 if __name__ == "__main__":
-    print(n32(7))
+    n38()
 
 
 
