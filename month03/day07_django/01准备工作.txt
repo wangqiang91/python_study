@@ -1,0 +1,6 @@
+官网：https://docs.djangoproject.com/zh-hans/5.0/
+
+pip uninstall django
+pip install django == 2.2.12
+
+创建项目：cmd路径下执行：django-admin startproject mysite
