@@ -1347,3 +1347,107 @@ JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e
 JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 1701325604727	Marionette	INFO	Stopped listening on port 57612
 Dynamically enable window occlusion 1
+1702089676350	geckodriver	INFO	Listening on 127.0.0.1:50630
+1702089679512	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\mozilla firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileb8fE2m"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702089681031	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702089681779	Marionette	INFO	Listening on port 50645
+Read port: 50645
+1702089682050	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://movie.douban.com."
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://hm.baidu.com/hm.js?703e94591e87be68cc8da0da7cbd0be2, line 47: Script terminated by timeout at:
+a@https://hm.baidu.com/hm.js?703e94591e87be68cc8da0da7cbd0be2:47:124
+
+1702089709289	Marionette	INFO	Stopped listening on port 50645
+Dynamically enable window occlusion 1
+1702089801070	geckodriver	INFO	Listening on 127.0.0.1:50856
+1702089804093	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\mozilla firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileS9Ccn6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702089804586	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702089804809	Marionette	INFO	Listening on port 50867
+Read port: 50867
+1702089804992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://movie.douban.com."
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://hm.baidu.com/hm.js?703e94591e87be68cc8da0da7cbd0be2, line 47: Script terminated by timeout at:
+a@https://hm.baidu.com/hm.js?703e94591e87be68cc8da0da7cbd0be2:47:124
+
+1702089835140	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+1702090411628	geckodriver	INFO	Listening on 127.0.0.1:51199
+1702090414678	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\mozilla firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileztNwXl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702090415160	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702090415393	Marionette	INFO	Listening on port 51213
+Read port: 51213
+1702090415569	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://movie.douban.com."
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s3.meituan.net/static-prod01/com.sankuai.movie.fe.mywww-files/stat.b4e55d45.js, line 1: Script terminated by timeout at:
+t/e[t]@https://s3.meituan.net/static-prod01/com.sankuai.movie.fe.mywww-files/stat.b4e55d45.js:1:18569
+a@https://hm.baidu.com/hm.js?703e94591e87be68cc8da0da7cbd0be2:47:310
+
+1702090445394	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702091184272	Marionette	INFO	Stopped listening on port 51213
+Dynamically enable window occlusion 1
+ng command: "D:\\Program Files (x86)\\mozilla firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofilexT5ow0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702090965784	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702090965914	Marionette	INFO	Listening on port 51502
+Read port: 51502
+1702090966112	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://movie.douban.com."
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://hm.baidu.com/hm.js?703e94591e87be68cc8da0da7cbd0be2, line 47: Script terminated by timeout at:
+a@https://hm.baidu.com/hm.js?703e94591e87be68cc8da0da7cbd0be2:47:124
+
+1702090995828	Marionette	INFO	Stopped listening on port 51502
+Dynamically enable window occlusion 1
+1702090995904	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: null, errorCode: 5, reason: error
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", "resource://gre/modules/Region.sys.mjs", 738))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1702091071623	geckodriver	INFO	Listening on 127.0.0.1:51641
+1702091074669	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\mozilla firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileuGFpR3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702091074965	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702091075093	Marionette	INFO	Listening on port 51651
+Read port: 51651
+1702091075279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://movie.douban.com."
+1702091104999	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702091110947	Marionette	INFO	Stopped listening on port 51651
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1702091195644	geckodriver	INFO	Listening on 127.0.0.1:51746
+1702091198723	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\mozilla firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile8jfJhm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702091199207	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702091199504	Marionette	INFO	Listening on port 51756
+Read port: 51756
+1702091199690	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://movie.douban.com."
+JavaScript warning: https://img1.doubanio.com/f/vendors/0511abe9863c2ea7084efa7e24d1d86c5b3974f1/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://hm.baidu.com/hm.js?703e94591e87be68cc8da0da7cbd0be2, line 47: Script terminated by timeout at:
+a@https://hm.baidu.com/hm.js?703e94591e87be68cc8da0da7cbd0be2:47:124
+
+1702091226366	Marionette	INFO	Stopped listening on port 51756
+Dynamically enable window occlusion 1

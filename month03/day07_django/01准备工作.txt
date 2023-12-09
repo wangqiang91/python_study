@@ -4,3 +4,7 @@ pip uninstall django
 pip install django == 2.2.12
 
 创建项目：cmd路径下执行：django-admin startproject mysite
+启动服务：python manage.py runserver 8081(不填端口也可以，默认8000) 
+
+settings.py:
+1.ALLOWED_HOSTS = ['*']表示所有人都可以访问；

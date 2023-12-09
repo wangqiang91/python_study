@@ -14,6 +14,7 @@ class TestAdd(unittest.TestCase):
         print("爱吃哈密瓜")
     def tearDown(self):
         print("二胖")
+    @unittest.skip("跳过啦")
     def test01_add(self):
         result = add(1,1)
         self.assertEqual(result,2)

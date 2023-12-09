@@ -351,9 +351,40 @@ def n38():
     num = input(">>")
     print(f"{num}是一个{len(num)}位数")
     print(num[::-1])
+
+def n39():
+    total = 0
+    for x in range(1,5):
+        for y in range(1,5):
+            for z in range(1,5):
+                if x != y and y!=z and x!= z:
+                    print(x*100+y*10+z,end=",")
+                    total += 1
+    print(total)
+
+def n40():
+    num = int(input(">>"))
+    money = 0
+    list1 = [0,100000,200000,400000,600000,1000000]
+    list2 = [0.1,0.075,0.05,0.03,0.015,0.01]
+    for i in range(5,-1):
+        if num > list1[i]:
+            money += (num - list1[i]) * list2[i]
+        num = list1[i]
+    print(money) 
+
+def n41():
+    for i in range(0,1000):
+        if (i+100)**0.5 - int((i+100)**0.5) == 0 and (i+168)**0.5 - int((i+168)**0.5) == 0 :
+            print(i)
+
+def n42():
+    str1 = "adbadg"
+    print(str1.upper())
+
     
 if __name__ == "__main__":
-    n38()
+    n42()
 
 
 

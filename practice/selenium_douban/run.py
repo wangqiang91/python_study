@@ -1,5 +1,5 @@
 import unittest
-from test_movie import Test_Movie
+from testmovie import Test_Movie
 from HTMLTestRunner import HTMLTestRunner
 
 suit = unittest.TestSuite()
