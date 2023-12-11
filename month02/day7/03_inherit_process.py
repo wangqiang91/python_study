@@ -11,8 +11,9 @@ class Music(Process):
     def player(self):
         for i in range(self.value):
             sleep(2)
-            print("heihh")
+            print(i)
     def run(self):
         self.player()
 if __name__ == "__main__":
-    Music(3).start()
+    for i in range(1,10,3):
+        Music(i+3).start()

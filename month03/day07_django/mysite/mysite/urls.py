@@ -15,10 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from . import views
 
 urlpatterns = [
     # http://127.0.0.1:8000/admin/
     path('admin/', admin.site.urls),
     # http://127.0.0.1:8000/
-    path('',"访问成功"),
+    path('',views.index_view),
+    # http://127.0.0.1:8000/page/1/
+    path('page/1/',views.page_view),
+    # http://127.0.0.1:8000/page/xxx
+    path('page/<int:page_num>/',views.page_number_view),
+    # http://127.0.0.1:8000/num1/add_sub_mul/num2
+    path('<int:num1>/<str:action>/<int:num2>',views.operation)
 ]
