@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>use form submit data to server</title>
+</head>
+<body>
+    <!-- get方式发送数据到服务器时，默认将数据通过查询字符串的方式拼接在地址中； -->
+    <!-- 使用get发送请求的场景：
+    1.form表单；  2.超链接href； 3.script和img的src； -->
+    <!-- post方式发送数据到服务器：
+    1.form表单 -->
+    <form action="http://127.0.0.1:8000/demo/" method="post">
+        <p>
+            姓名:<input type="test" name="username">
+        </p>
+        <p>
+            答案:
+            <br>
+            <input type="checkbox" name="answer" value="A1"> A<br>
+            <input type="checkbox" name="answer" value="B1"> B<br>
+            <input type="checkbox" name="answer" value="C1"> C<br>
+            <input type="checkbox" name="answer" value="D1"> D<br>
+        </p>
+        <input type="submit">
+    </form>
+</body>
+</html>

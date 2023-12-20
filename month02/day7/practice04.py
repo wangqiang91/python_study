@@ -23,12 +23,14 @@ class TestProcess(Process):
 if __name__ == "__main__":
     q = Queue()
     process_list = []
-    for i in range(1,29,5):
-        proc = TestProcess(begin=i,end=i+5,q=q)
+    for i in range(1,20,2):
+        proc = TestProcess(begin=i,end=i+2,q=q)
         process_list.append(proc)
         proc.start()
+    print(f"共有几个进程》》{len(process_list)}")
     for item in process_list:
         item.join()
+    print(f"共有几个进程》》{len(process_list)}")
     result = [q.get() for j in process_list]
     faile_list = re.findall('[0-9]+',str(result))
     # for item in result:
