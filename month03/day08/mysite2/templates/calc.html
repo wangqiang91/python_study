@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加减乘除</title>
+</head>
+<body>
+    <!-- http://127.0.0.1:8000/mycal/ -->
+    <form action="/mycal/" method="post">
+        <input type="text" name="x" value='{{x}}'>
+        <select name="op">
+            <option {% if op == 'add' %} selected {% endif %} value="add">+加</option>
+            <option {% if op == 'sub' %} selected {% endif %} value="sub">-减</option>
+            <option {% if op == 'mul' %} selected {% endif %} value="mul">*乘</option>
+            <option {% if op == 'dev' %} selected {% endif %} value="dev">/除</option>
+        </select>
+        <input type="text" name="y" value="{{y}}"> = <span>{{result}}</span>
+        <div>
+            <input type="submit" value="开始计算">
+        </div>
+    </form>
+</body>
+</html>

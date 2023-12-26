@@ -1,4 +1,4 @@
-"""mysite2 URL Configuration
+"""practice_site URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/
@@ -16,13 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from . import views
-
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.index_html,name='index'),
-    path('mycal/',views.mycal_view),
-    path('free/',views.free_view),
-    path('advanced/',views.advanced_view,name="adv"),
-    path('live/',views.live_view),
-    path('login/',views.login_view),
+    path('',views.index_view,name='index'),
+    path('page1/',views.page1_view,name='page1'),
+    path('page2/',views.page2_view,name='page2'),
+    path('page3/',views.page3_view,name='page3'),
 ]

@@ -7,6 +7,51 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello my baby</h1>
+    <h1>hello my baby  <small>欢迎{{username}}</small></h1>
+    <h3>
+        <a href="free/" target="_blank">免费课</a>
+        <a href="advanced/" target="_top">精品课</a>
+        <!-- 使用路由别名获取路由 -->
+        <a href={% url 'adv' %} target="_top">精品课</a> 
+        <a href="live/" target="_parent">直播课</a>
+    </h3>
+    <h2>username: {{username | upper}}</h2>
+    {% if age >= 16 %}
+    <h3 style="color: green;">age: {{age | add:"10"}}</h3>
+    {% else %}
+    <h3 style="color: red;">age: {{age | add:"-10"}}</h3>
+    {% endif%}
+    <h3 {% if age >= 16 %}
+        style="color: green;"
+        {% else %}
+        style="color: red;"
+        {% endif%}
+        >age {{age}}</h3>
+    
+    <h4>citys: {{citys}}</h4>
+    <ul>
+        <li>{{citys.0}}</li>
+        <li>{{citys.1}}</li>
+        <li>{{citys.2}}</li>
+        <li>{{citys.3}}</li>
+    </ul>
+    <ul>
+        {% for c in citys %}
+        <li {% if forloop.first%} style="color:red" {% endif %}>{{forloop.revcounter}}-{{c}}</li>
+        {% empty %}
+        <li>没有获取到citys的数据</li>
+        {% endfor %}
+    </ul>
+    <h5>person: {{person}}</h5>
+    <ul>
+        <li>this is {{person.pid}} member</li>
+    </ul>
+    <h6>function {{myfn}]</h6>
+    <h6>{{mypet}}</h6>
+    <ul>
+        <li>{{mypet.name}}</li>
+        <li>{{mypet.age}}</li>
+    </ul>
+
 </body>
 </html>
